@@ -32,11 +32,11 @@ Fill in the sections below yourself, then:
 
 # [Microsoft Ignite 2026](https://ignite.microsoft.com)
 
-## 🔥BRKXXX: SESSION TITLE
+## 🔥LAB660: Configuring, monitoring, and managing AI spend with Agent 365
 
 ### Session description
 
-Add your session description here. Keep it concise — 2-3 sentences about what attendees will learn and why it matters.
+Get hands-on with AI spend management in Agent 365 and learn how to confidently deploy and scale AI across your organisation. After this 75-minute lab, you will understand how to configure the policies that control model and agent availability and spending limits as well as how to monitor spending and course correct by understanding delivered value.
 
 ### 🚀 Getting started
 
