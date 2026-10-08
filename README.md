@@ -1,6 +1,6 @@
 ## Before you're done
 
-This repo has been created for your Microsoft Ignite 2026 session. Here's how to get it ready.
+This repo has been created for your Microsoft Ignite 2026 session. Here's how to get it ready. 
 
 **Easiest path — use the agent (recommended):**
 
