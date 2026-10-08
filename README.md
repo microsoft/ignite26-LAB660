@@ -44,33 +44,37 @@ Get hands-on with AI spend management in Agent 365 and learn how to confidently 
 
 If you're following along during a live session:
 
-1. Step 1
-2. Step 2
-3. Open [`instructions/`](instructions/README.md) when this session includes
-   attendee step-by-step guidance
+1. Launch the Skillable lab environment provided by your instructor.
+2. Open the session guidance in [`instructions/`](instructions/README.md).
+3. Follow the exercises in order using the provided environment.
 
 #### On your own
 
 If you're learning at your own pace:
 
 1. Clone this repository
-2. Set up your environment
-3. Follow the session guidance in [`instructions/`](instructions/README.md), or
-   use the linked docs-site entry point when this repository uses that pattern
+2. Open the session guidance in [`instructions/`](instructions/README.md).
+3. Follow the exercises using an environment with the required access and
+   configuration.
 
 ### 🎯 Learning outcomes
 
 By the end of this session, you will be able to:
 
-- Outcome 1
-- Outcome 2
-- Outcome 3
+- Configure policies that govern which AI models and agents users can access
+  and how much they can spend.
+- Evaluate how spending policies affect user model selection and approval
+  workflows.
+- Monitor AI spending and delivered value, then respond to alerts and limits
+  by adjusting controls.
 
 ### 💻 Technologies used
 
-- Technology 1
-- Technology 2
-- Technology 3
+- Microsoft Agent 365 cost management
+- Microsoft 365 admin center
+- Microsoft Copilot Cowork
+- Copilot Credits
+- Insights consumption dashboard
 
 ### 📚 Continue your learning
 
@@ -102,17 +106,12 @@ For more information, visit the [Learn MCP Server repo](https://aka.ms/learnmcp)
 
 ### 👥 Content owners
 
-<!-- TODO: Add yourself as a content owner
-1. Change the src in the image tag to {your github url}.png
-2. Change INSERT NAME HERE to your name
-3. Change the github url in the final href to your url. -->
-
 <table>
 <tr>
-    <td align="center"><a href="http://github.com/yourGitHubHandle">
-        <img src="https://github.com/yourGitHubHandle.png" width="100px;" alt="INSERT NAME HERE"/><br />
-        <sub><b>INSERT NAME HERE</b></sub></a><br />
-            <a href="https://github.com/yourGitHubHandle" title="talk">📢</a>
+    <td align="center"><a href="https://github.com/finbarrd">
+        <img src="https://github.com/finbarrd.png" width="100px;" alt="Finbarr Duggan"/><br />
+        <sub><b>Finbarr Duggan</b></sub></a><br />
+            <a href="https://github.com/finbarrd" title="talk">📢</a>
     </td>
 </tr></table>
 
