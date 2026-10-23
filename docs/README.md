@@ -8,3 +8,7 @@ architecture/context.
 If this repository intentionally uses MkDocs or another docs-site pattern,
 attendee instructions can remain here. Link the attendee entry point clearly
 from the root README.
+
+## Lab design
+
+- [Time-optimised scenario and build specification](LAB660-Scenario-Spec-time-optimised.md)
