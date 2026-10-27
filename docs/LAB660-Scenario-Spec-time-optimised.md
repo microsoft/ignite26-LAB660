@@ -93,14 +93,14 @@ Sections 3.1 to 3.5 are unchanged from v0.10. Section 3.6 lists what this versio
 |---|---|---|---|
 | Admin | Contoso IT and FinOps admin (the student) | None | None |
 | U01 Alex | Standard user, heavy month | SG-AI-Standard | Standard (PAYG) |
-| U02 Blake | Standard user, at limit | SG-AI-Standard | Standard (PAYG) |
-| U03 Casey | Standard user, light usage | SG-AI-Standard | Standard (PAYG) |
-| U04 Dana | Finance analyst | SG-AI-Finance | Finance (Capacity pack only) |
-| U05 Eli | Finance analyst | SG-AI-Finance | Finance (Capacity pack only) |
-| U06 Frankie | Finance lead (AI Reader, optional) | SG-AI-Finance | Finance (Capacity pack only) |
-| U07 Gray | Marketing manager | SG-AI-Marketing | Marketing (Shared pool, PAYG) |
-| U08 Harper | Marketing specialist | SG-AI-Marketing | Marketing (Shared pool, PAYG) |
-| U09 Indy | Pilot power user who automates work with scheduled tasks | SG-AI-Pilot | Pilot (Capacity pack + PAYG) |
+| U02 Allan | Standard user, at limit | SG-AI-Standard | Standard (PAYG) |
+| U03 Diego | Standard user, light usage | SG-AI-Standard | Standard (PAYG) |
+| U04 Isaiah | Finance analyst | SG-AI-Finance | Finance (Capacity pack only) |
+| U05 Joni | Finance analyst | SG-AI-Finance | Finance (Capacity pack only) |
+| U06 Lynne | Finance lead (AI Reader, optional) | SG-AI-Finance | Finance (Capacity pack only) |
+| U07 Megan | Marketing manager | SG-AI-Marketing | Marketing (Shared pool, PAYG) |
+| U08 Nestor | Marketing specialist | SG-AI-Marketing | Marketing (Shared pool, PAYG) |
+| U09 Patti | Pilot power user who automates work with scheduled tasks | SG-AI-Pilot | Pilot (Capacity pack + PAYG) |
 | U10 Jordan | New joiner, Sales | None | None (no Cowork access) |
 
 Also pre-create an empty group, SG-AI-Extended. The student's new policy targets it.
