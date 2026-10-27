@@ -95,12 +95,12 @@ Sections 3.1 to 3.5 are unchanged from v0.10. Section 3.6 lists what this versio
 | U01 Alex | Standard user, heavy month | SG-AI-Standard | Standard (PAYG) |
 | U02 Allan | Standard user, at limit | SG-AI-Standard | Standard (PAYG) |
 | U03 Diego | Standard user, light usage | SG-AI-Standard | Standard (PAYG) |
-| U04 Isaiah | Finance analyst | SG-AI-Finance | Finance (Capacity pack only) |
-| U05 Joni | Finance analyst | SG-AI-Finance | Finance (Capacity pack only) |
-| U06 Lynne | Finance lead (AI Reader, optional) | SG-AI-Finance | Finance (Capacity pack only) |
-| U07 Megan | Marketing manager | SG-AI-Marketing | Marketing (Shared pool, PAYG) |
-| U08 Nestor | Marketing specialist | SG-AI-Marketing | Marketing (Shared pool, PAYG) |
-| U09 Patti | Pilot power user who automates work with scheduled tasks | SG-AI-Pilot | Pilot (Capacity pack + PAYG) |
+| U04 Isaiah | Finance analyst | SG-AI-Finance | Finance Capacity pack only |
+| U05 Joni | Finance analyst | SG-AI-Finance | Finance Capacity pack only |
+| U06 Lynne | Finance lead (AI Reader, optional) | SG-AI-Finance | Finance Capacity pack only |
+| U07 Megan | Marketing manager | SG-AI-Marketing | Marketing Shared pool PAYG |
+| U08 Nestor | Marketing specialist | SG-AI-Marketing | Marketing Shared pool PAYG |
+| U09 Patti | Pilot power user who automates work with scheduled tasks | SG-AI-Pilot | Pilot Capacity pack and PAYG |
 | U10 Jordan | New joiner, Sales | None | None (no Cowork access) |
 
 Also pre-create an empty group, SG-AI-Extended. The student's new policy targets it.
@@ -111,10 +111,10 @@ Also pre-create an empty group, SG-AI-Extended. The student's new policy targets
 
 | Policy | Scope | Agents and services | Auto-apply new services | Monthly policy limit | Per-user limit | Admin alert | User notification | Model profile | Billing method |
 |---|---|---|---|---|---|---|---|---|---|
-| Standard (PAYG), the default policy | SG-AI-Standard | Cowork | On | 6,000 | 2,000 | 70%, to admin | 80% | Default | Azure subscription (PAYG) |
-| Finance (Capacity pack only) | SG-AI-Finance | Cowork | Off | 6,000 | 2,000 | 80%, to admin and U06 | 80% | Default | Prepaid capacity packs only |
-| Marketing (Shared pool, PAYG) | SG-AI-Marketing | Cowork | On | 4,000 | 4,000 | 90%, to admin | 80% | Default | Azure subscription (PAYG) |
-| Pilot (Capacity pack + PAYG) | SG-AI-Pilot | Cowork | On | 10,000 | 5,000 | 80%, to admin | 80% | "Pilot - Approved models" | Prepaid capacity packs plus Azure subscription (PAYG overflow) |
+| Standard PAYG the default policy | SG-AI-Standard | Cowork | On | 6,000 | 2,000 | 70%, to admin | 80% | Default | Azure subscription (PAYG) |
+| Finance Capacity pack only | SG-AI-Finance | Cowork | Off | 6,000 | 2,000 | 80%, to admin and U06 | 80% | Default | Prepaid capacity packs only |
+| Marketing Shared pool PAYG | SG-AI-Marketing | Cowork | On | 4,000 | 4,000 | 90%, to admin | 80% | Default | Azure subscription (PAYG) |
+| Pilot Capacity pack and PAYG | SG-AI-Pilot | Cowork | On | 10,000 | 5,000 | 80%, to admin | 80% | "Pilot - Approved models" | Prepaid capacity packs plus Azure subscription (PAYG overflow) |
 
 ### 3.4 Seeded consumption: target month-to-date state at lab start
 
@@ -136,9 +136,9 @@ Policy roll-up at lab start:
 | Policy | Credits used | Policy limit | Utilisation | Alert state |
 |---|---|---|---|---|
 | Standard (PAYG) | 4,250 | 6,000 | 70.8% | Admin alert (70%) firing daily |
-| Finance (Capacity pack only) | 900 | 6,000 | 15.0% | Below threshold, but users blocked because pack credits are exhausted |
-| Marketing (Shared pool, PAYG) | 4,000 | 4,000 | 100% | Limit reached; admin alert (90%) firing daily |
-| Pilot (Capacity pack + PAYG) | 1,600 | 10,000 | 16.0% | Below threshold |
+| Finance Capacity pack only | 900 | 6,000 | 15.0% | Below threshold, but users blocked because pack credits are exhausted |
+| Marketing Shared pool PAYG | 4,000 | 4,000 | 100% | Limit reached; admin alert (90%) firing daily |
+| Pilot Capacity pack and PAYG | 1,600 | 10,000 | 16.0% | Below threshold |
 
 Funding roll-up at lab start:
 
