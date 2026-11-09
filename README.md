@@ -80,14 +80,12 @@ For more information, visit the [Learn MCP Server repo](https://aka.ms/learnmcp)
 
 ### 👥 Content owners
 
-<table>
-<tr>
-    <td align="center"><a href="https://github.com/finbarrd">
-        <img src="https://github.com/finbarrd.png" width="100px;" alt="Finbarr Duggan"/><br />
-        <sub><b>Finbarr Duggan</b></sub></a><br />
-            <a href="https://github.com/finbarrd" title="talk">📢</a>
-    </td>
-</tr></table>
+- Amit Desai
+- Reshma Kapoor
+- Akhil Ravindran
+- Madeline Nelson
+- Shawn Leonard
+- Shilpi Agarwal
 
 ### ⚖️ Trademarks
 
