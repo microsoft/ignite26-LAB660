@@ -44,11 +44,9 @@ By the end of this session, you will be able to:
 
 ### 💻 Technologies used
 
-- Microsoft Agent 365 cost management
-- Microsoft 365 admin center
-- Microsoft Copilot Cowork
-- Copilot Credits
-- Insights consumption dashboard
+- [Microsoft Agent 365 cost management](https://learn.microsoft.com/en-us/microsoft-365/commerce/use-cost-mgmt?view=o365-worldwide)
+- [Microsoft Copilot Cowork](https://learn.microsoft.com/en-us/microsoft-365/admin/activity-reports/cowork-usage-report?view=o365-worldwide)
+- [Copilot Credits](https://learn.microsoft.com/en-us/copilot/plan/usage-based-billing-overview-copilot-credits)
 
 ### 📚 Continue your learning
 
