@@ -8,8 +8,8 @@ You'll work in two tenants:
 
 | Part | Tenant | Where Contoso is | Exercises |
 |---|---|---|---|
-| Part 1: Set up | **Tenant A** | November 1. Usage-based billing isn't turned on yet, and there are no spending policies. | 1, 2 and 3 |
-| Part 2: Operate | **Tenant B** | November 16, two weeks later. The Sales policies from Part 1 are in place, plus one for Finance, with two weeks of usage data. | 4 and 5 |
+| Part 1: Set up  | November 1. Usage-based billing isn't turned on yet, and there are no spending policies. | 1, 2 and 3 |
+| Part 2: Operate | November 16, two weeks later. The Sales policies from Part 1 are in place, plus one for Finance, with two weeks of usage data. | 4 and 5 |
 
 | Exercise | Time | What you'll do |
 |---|---|---|
@@ -29,9 +29,7 @@ You'll work in two tenants:
 
 ===
 
-### Sign in to Tenant A
-
-You'll sign in to Tenant B later, at the start of Exercise 4.
+### Sign in to Tenant
 
 1. [] Sign in to Windows. If you see the lock screen, select @lab.CtrlAltDelete first. Select each value to type it:
     - Username: +++@lab.VirtualMachine(Win11-Pro-Base).Username+++
@@ -49,7 +47,7 @@ You'll sign in to Tenant B later, at the start of Exercise 4.
 
 ## Exercise 1: Turn on usage-based billing with a default policy for everyone
 
-⏱ About 8 minutes · **Tenant A**
+⏱ About 8 minutes ·
 
 **Scenario:** It's November 1. Contoso uses Microsoft 365 Copilot, but Cowork and other usage-based experiences stay off until you turn on usage-based billing. The CIO and CFO agree to let everyone try them under a safe ceiling: $20 a person a month, any model, paid from the Azure subscription **Lab-PAYG**, with a warning at 80%.
 
@@ -71,7 +69,7 @@ You'll sign in to Tenant B later, at the start of Exercise 4.
 
 ## Exercise 2: Open Cowork to Sales as a pilot, with guardrails
 
-⏱ About 9 minutes · **Tenant A**
+⏱ About 9 minutes · 
 
 **Scenario:** The Sales VP's team wants to use Cowork for proposals, account research and pipeline analysis, and $20 a month won't last them. You agree to a pilot with guardrails: Cowork only, $2,000 a person and $10,000 for the team, a warning before anyone is cut off, and a short list of approved models.
 
@@ -114,7 +112,7 @@ You'll sign in to Tenant B later, at the start of Exercise 4.
 
 ## Exercise 3: Put a budget on Sales agents
 
-⏱ About 8 minutes · **Tenant A**
+⏱ About 8 minutes · 
 
 **Scenario:** The Sales team builds its agents in one Copilot Studio environment, **Contoso Sales Projects**. It holds the **Sales Agent**, which goes live to the team this week, and **Proposal Helper**. Every conversation uses credits. Pete Pipeline owns both agents. Finance wants a monthly cap, and you and Pete should both hear when spend gets close.
 
@@ -136,12 +134,10 @@ In the policy steps, select **Next** to move on to each new step.
 
 ===
 
-Part 2 starts here. You'll work in **Tenant B**: the same Contoso two weeks later, on Monday, November 16. The **Sales Cowork pilot** and **Sales environment agents** policies are live. IT also added **Finance Cowork** on November 1, when Finance asked for room for its month-end close.
-
-### Sign in to Tenant B
+Part 2 starts here: the same Contoso two weeks later, on Monday, November 16. The **Sales Cowork pilot** and **Sales environment agents** policies are live. IT also added **Finance Cowork** on November 1, when Finance asked for room for its month-end close.
 
 1. [] In Edge, open an InPrivate window: press **Ctrl+Shift+N**, or select **Settings and more** (**...**) > **New InPrivate window**.
-2. [] Click in the address bar, select +++https://admin.cloud.microsoft+++, then press **Enter**.
+2. [] Click in the address bar, select +++https://admin.cloud.microsoft/?pkgver=Rolling_261110.33_V2&hvc=bigmac:pkgver=PR_261110.242_V2&vnext=true#/copilot/costmanagement/overview+++, then press **Enter**.
 3. [] Click in the email box, select +++admin@@lab.CloudCredential(TENANT-B-POOL).TenantName+++, then select **Next**.
 4. [] Click in the password box, select +++@lab.CloudCredential(TENANT-B-POOL).Password+++, then select **Sign in**.
 5. [] Select **Copilot** > **Cost Management**. You should see the **Overview** tab with two weeks of data.
@@ -152,7 +148,7 @@ Part 2 starts here. You'll work in **Tenant B**: the same Contoso two weeks late
 
 ## Exercise 4: Find the policies and people that need action
 
-⏱ About 8 minutes · **Tenant B**
+⏱ About 8 minutes
 
 ### Find what needs action
 
@@ -180,7 +176,7 @@ Part 2 starts here. You'll work in **Tenant B**: the same Contoso two weeks late
 
 ## Exercise 5: Unblock Finance's power user
 
-⏱ About 12 minutes · **Tenant B**
+⏱ About 12 minutes
 
 **Scenario:** Fiona Forecast, FP&A Analyst, has used 450,000 of her 500,000 credits with 15 days left, in the middle of the monthly forecast refresh. Bill Budget, the Finance Director, asks you to keep her working without letting Finance's budget run away.
 
