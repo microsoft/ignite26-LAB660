@@ -6,8 +6,8 @@ You're the Microsoft 365 admin at **Contoso**. Contoso has used Microsoft 365 Co
 
 You'll work in two tenants:
 
-| Part | Tenant | Where Contoso is | Exercises |
-|---|---|---|---|
+| Part | Where Contoso is | Exercises |
+|---|---|---|
 | Part 1: Set up  | November 1. Usage-based billing isn't turned on yet, and there are no spending policies. | 1, 2 and 3 |
 | Part 2: Operate | November 16, two weeks later. The Sales policies from Part 1 are in place, plus one for Finance, with two weeks of usage data. | 4 and 5 |
 
@@ -16,15 +16,15 @@ You'll work in two tenants:
 | 1 | 8 minutes | Turn on usage-based billing with a default policy for everyone |
 | 2 | 9 minutes | Open Cowork to the Sales team as a pilot, with guardrails |
 | 3 | 8 minutes | Put a budget on the Sales team's agents |
-| 4 | 8 minutes | Sign in to Tenant B, then find the policies and people that need action |
+| 4 | 8 minutes | Navigate to the link, then find the policies and people that need action |
 | 5 | 12 minutes | Unblock Finance's power user without raising everyone's limits |
 
 ### How this lab works
 
 - Text formatted like +++this example+++ is type text. Click in the box you want to fill, then select the text, and it's typed for you.
 - Select the check box next to each step when you finish it.
-- In Part 2, you'll open Tenant B in an InPrivate window, so you stay signed in to both tenants.
-- About 25 minutes into the hands-on time, the presenter will ask everyone to move to Part 2, even if you haven't finished. Nothing in Tenant B depends on what you do in Tenant A.
+- In Part 2, you'll open new link in another window, so you stay signed in with the same user.
+- About 25 minutes into the hands-on time, the presenter will ask everyone to move to Part 2, even if you haven't finished.
 - Need help? Raise your hand and a proctor will come to you.
 
 ===
@@ -39,7 +39,7 @@ You'll work in two tenants:
 4. [] Click in the email box, select +++admin@@lab.CloudCredential(WWLM365E7).TenantName+++, then select **Next**.
 5. [] Click in the password box, select +++@lab.CloudCredential(WWLM365E7).Password+++, then select **Sign in**.
 6. [] If you're asked **Stay signed in?**, select **Yes**.
-7. [] Check that the **Microsoft 365 admin center** home page opens. Keep this Edge window open: it's your Tenant A window.
+7. [] Check that the **Microsoft 365 admin center** home page opens. Keep this Edge window open.
 
 > [!Help] Type text goes wherever your cursor is, so click in the right box before you select it. If sign-in still fails, raise your hand.
 
@@ -56,7 +56,7 @@ You'll work in two tenants:
 1. [] In the admin center's left navigation, select **Copilot** > **Cost Management**. If you don't see **Copilot**, select **Show all** first.
 2. [] Select **Get started**. You should see the panel **Activate the default spending policy for your organization**.
 3. [] In the **Billing method** section, open the subscription list and select **Lab-PAYG**. Don't select **Create new**.
-4. [] Select **Advanced billing settings** to expand it. Keep the region that's selected, and in the **Resource group** list, select **rg-copilot-billing**.
+4. [] Select **Advanced billing settings** to expand it. Keep the region that's selected as default.
 5. [] In **Set the monthly spending limit for this policy**, select **Limit monthly spending**, then enter +++20000+++.
 6. [] Turn on the monthly spending limit for users, then enter +++2000+++.
 7. [] In **Define alerts**, set the threshold to +++80+++ percent. Your admin address is already filled in as the recipient.
@@ -136,11 +136,9 @@ In the policy steps, select **Next** to move on to each new step.
 
 Part 2 starts here: the same Contoso two weeks later, on Monday, November 16. The **Sales Cowork pilot** and **Sales environment agents** policies are live. IT also added **Finance Cowork** on November 1, when Finance asked for room for its month-end close.
 
-1. [] In Edge, open an InPrivate window: press **Ctrl+Shift+N**, or select **Settings and more** (**...**) > **New InPrivate window**.
+1. [] In Edge, open an InPrivate window: press **Ctrl+N**, or select **Settings and more** (**...**) > **New window**.
 2. [] Click in the address bar, select +++https://admin.cloud.microsoft/?pkgver=Rolling_261110.33_V2&hvc=bigmac:pkgver=PR_261110.242_V2&vnext=true#/copilot/costmanagement/overview+++, then press **Enter**.
-3. [] Click in the email box, select +++admin@@lab.CloudCredential(TENANT-B-POOL).TenantName+++, then select **Next**.
-4. [] Click in the password box, select +++@lab.CloudCredential(TENANT-B-POOL).Password+++, then select **Sign in**.
-5. [] Select **Copilot** > **Cost Management**. You should see the **Overview** tab with two weeks of data.
+3. [] Select **Copilot** > **Cost Management**. You should see the **Overview** tab with two weeks of data.
 
 > [!Note] Use only the InPrivate window for Exercises 4 and 5. Your other Edge window is still signed in to Tenant A.
 
