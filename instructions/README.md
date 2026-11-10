@@ -62,11 +62,10 @@ You'll sign in to Tenant B later, at the start of Exercise 4.
 5. [] In **Set the monthly spending limit for this policy**, select **Limit monthly spending**, then enter +++20000+++.
 6. [] Turn on the monthly spending limit for users, then enter +++2000+++.
 7. [] In **Define alerts**, set the threshold to +++80+++ percent. Your admin address is already filled in as the recipient.
-8. [] Turn on user notifications, and set them to +++80+++ percent.
+8. [] Select **Customize setup configuration** and review what the policy covers: **All users**, all supported services and the default models. Don't change anything.
 9. [] Check that **Auto-apply new services** is on, and leave it on.
-10. [] Select **Customize setup configuration** and review what the policy covers: **All users**, all supported services and the default models. Don't change anything.
-11. [] Select **Activate**. When setup is complete, select **Manage Configuration**.
-12. [] On the **Configuration** tab, check that **Default spending policy** is listed as **Active**.
+10. [] Select **Activate**. When setup is complete, select **Manage Configuration**.
+11. [] On the **Configuration** tab, check that **Default spending policy** is listed as **Enabled**.
 
 ===
 
@@ -87,7 +86,7 @@ You'll sign in to Tenant B later, at the start of Exercise 4.
 
 ### Choose the service
 
-5. [] In **Select agents and services**, select **Cowork** only.
+5. [] In **Select agents and services**, select **Cowork** only. You can find this checkbox under **Microsoft Copilot**
 6. [] Turn off **Auto-apply new services**, then select **Next**.
 
 ### Set limits and alerts
@@ -125,7 +124,7 @@ In the policy steps, select **Next** to move on to each new step.
 
 1. On the **Configuration** tab, select **+ Add spending policy**.
 2. Name the policy +++Sales Agent+++, then select **Resources** as the scope.
-3. Select **Specific resources**. Search for +++Sales Agent+++, then select **Sales Agent**. It's listed with its environment, Contoso Sales Projects.
+3. Select **Resource collection**. Search for +++Sales Agent Test Environment+++, then select **Sales Agent Test Environment**. It's listed with its environment, Contoso Sales Projects.
 4. Set the monthly spending limit to +++300000+++.
 5. Set the alert threshold to +++80+++ percent. Your admin address is already a recipient. Search for +++Pete Pipeline+++ and add him.
 6. Keep **Lab-PAYG** as the billing method.
