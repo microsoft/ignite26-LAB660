@@ -136,7 +136,7 @@ In the policy steps, select **Next** to move on to each new step.
 
 Part 2 starts here: the same Contoso two weeks later, on Monday, November 16. The **Sales Cowork pilot** and **Sales environment agents** policies are live. IT also added **Finance Cowork** on November 1, when Finance asked for room for its month-end close.
 
-1. [] In Edge, open an InPrivate window: press **Ctrl+N**, or select **Settings and more** (**...**) > **New window**.
+1. [] In Edge, open another window: press **Ctrl+N**.
 2. [] Click in the address bar, select +++https://admin.cloud.microsoft/?pkgver=Rolling_261110.33_V2&hvc=bigmac:pkgver=PR_261110.242_V2&vnext=true#/copilot/costmanagement/overview+++, then press **Enter**.
 3. [] Select **Copilot** > **Cost Management**. You should see the **Overview** tab with two weeks of data.
 
