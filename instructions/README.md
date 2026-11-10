@@ -37,7 +37,7 @@ You'll work in two tenants:
 2. [] On the desktop, double-click **Microsoft Edge**. If Edge shows a welcome or setup screen, close it.
 3. [] Click in the Edge address bar, select +++https://admin.cloud.microsoft+++, then press **Enter**.
 4. [] Click in the email box, select +++@lab.CloudCredential(PoolB).Sign-inName+++, then select **Next**.
-5. [] Click in the password box, select +++@@lab.CloudCredential(PoolB).Sign-inCode+++, then select **Sign in**.
+5. [] Click in the password box, select +++@lab.CloudCredential(PoolB).Sign-inCode+++, then select **Sign in**.
 6. [] If you're asked **Stay signed in?**, select **Yes**.
 7. [] Check that the **Microsoft 365 admin center** home page opens. Keep this Edge window open.
 
