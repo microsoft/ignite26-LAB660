@@ -140,8 +140,6 @@ Part 2 starts here: the same Contoso two weeks later, on Monday, November 16. Th
 2. [] Click in the address bar, select +++https://admin.cloud.microsoft/?pkgver=Rolling_261110.33_V2&hvc=bigmac:pkgver=PR_261110.242_V2&vnext=true#/copilot/costmanagement/overview+++, then press **Enter**.
 3. [] Select **Copilot** > **Cost Management**. You should see the **Overview** tab with two weeks of data.
 
-> [!Note] Use only the InPrivate window for Exercises 4 and 5. Your other Edge window is still signed in to Tenant A.
-
 ===
 
 ## Exercise 4: Find the policies and people that need action
