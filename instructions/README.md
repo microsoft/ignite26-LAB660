@@ -155,19 +155,19 @@ Part 2 starts here: the same Contoso two weeks later, on Monday, November 16. Th
 
 1. [] On the **Overview** tab, review the tiles at the top. You should see:
     - **Total Copilot Credits used**: 1,330,000
-    - **Prepaid capacity pack credits used**: 0
-    - **Pay-as-you-go credits used**: 1,330,000
     - **Active users of Copilot Credits**: 8
+    - **Cost this month**: $13K
+    - **Value**: 28K
 2. [] Review the cards that flag what needs action. You should see:
-    - **Policies approaching or at limit**: **Finance Cowork**, at 750,000 of 1,200,000 credits (62.5%). It's marked **Needs action** because it's past its 60% alert threshold.
-    - **Users at ≥90% of spending limit**: **Sally Sales**, at 190,000 of 200,000 credits (95%), and **Fiona Forecast**, at 450,000 of 500,000 credits (90%)
+    - **Policies approaching or at limit**: **Finance Cowork**, at $7,500 of $12,000 (63%). It's marked **Needs action** because it's past its 60% alert threshold.
+    - **Users at ≥90% of spending limit**: **Sally Sales**, at $1,900 of $2,000 (95%), and **Fiona Forecast**, at $4,500 of $5,000 (90%)
 3. [] Scroll down to the spending cards. You should see:
     - **Spending**: $13,300.00 estimated spend this month. The second week (November 9 to 15) is 50% higher than the first, with weekday peaks of 140,160 credits ($1,401.60).
-    - **Agents and services spending the most credits (month to date)**: **Cowork**, 1,150,000 credits, and **Copilot Studio**, 180,000 credits
+    - **Agents and services spending the most credits (month to date)**: **Cowork**, $11,500, and **Sales Agent**, $1,800 credits
     - **Top users by cost**: Fiona Forecast $4,500.00, Sally Sales $1,900.00, Polly Procurement $1,500.00, Bill Budget $1,500.00 and Pete Pipeline $800.00
-4. [] Select the **Consumption** tab. The **Policies** view is sorted by **Credits used**.
+4. [] Select the **Consumption** tab. The **Policies** view is sorted by **Cost**.
 
-5. [] Switch to the **Users & groups** view, and set **Group by** to **All users**. The list is sorted by **Total credits used**. 
+5. [] Switch to the **Users & groups** view. The list is set to **Group by** **All users**. The list is sorted by **Total credits used**. 
 
 6. [] Select **Fiona Forecast** to open her details. You should see her daily usage under **Finance Cowork**: 31,296 credits each weekday from November 2 to 6, rising to 46,944 each weekday from November 9 to 13.
 
@@ -177,21 +177,19 @@ Part 2 starts here: the same Contoso two weeks later, on Monday, November 16. Th
 
 ⏱ About 12 minutes
 
-**Scenario:** Fiona Forecast, FP&A Analyst, has used 450,000 of her 500,000 credits with 15 days left, in the middle of the monthly forecast refresh. Bill Budget, the Finance Director, asks you to keep her working without letting Finance's budget run away.
+**Scenario:** Fiona Forecast, FP&A Analyst, has used 450,000 of her 500,000 credits with 15 days left, in the middle of the monthly forecast refresh.
 
-**Goal:** Create the security group **Copilot Power Users**, add Fiona, and give the group its own policy: 1,000,000 credits a person, 2,000,000 for the group, Cowork only, and alerts at 80%.
+**Goal:** Bill Budget, the Finance Director, asks you to keep her working without letting Finance's budget run away.
 
 ### Weigh the options
 
-| Option | The change | What happens | Verdict |
-|---|---|---|---|
-| A: Raise the team limit | Raise Finance Cowork's 1,200,000 team limit | Fiona is still capped by her 500,000 personal limit, with only 50,000 credits left. | Doesn't help Fiona |
-| B: Raise everyone's personal limit | Per-user limit from 500,000 to 1,000,000 for all of Finance | Polly and Bill, at 30% of their limits, get room they don't need. All three still share a team limit that's already at 62.5%. | Raises the ceiling for everyone to fix one person |
+| Option | The change | How to | What happens | Verdict |
+|---|---|---|---|---|
+| A: Raise the team limit | Raise Finance Cowork's 1,200,000 team limit | Select the **Configuration** tab, then select **Finance Cowork**. Find the two levers: the policy limit (1,200,000) is option A, and the per-user limit (500,000) is option B. Close the panel without saving. | Fiona is still capped by her 500,000 personal limit, with only 50,000 credits left. | Doesn't help Fiona |
+| B: Raise everyone's personal limit | Per-user limit from 500,000 to 1,000,000 for all of Finance | Select the **Configuration** tab, then select **Finance Cowork**. Find the two levers: the policy limit (1,200,000) is option A, and the per-user limit (500,000) is option B. Close the panel without saving. | Polly and Bill, at 30% of their limits, get room they don't need. All three still share a team limit that's already at 62.5%. | Raises the ceiling for everyone to fix one person |
 | C: A power user group | A new group, Copilot Power Users, with its own policy at 1,000,000 a person. Fiona joins it. | Fiona's 450,000 credits carry forward: 45% of her new limit, with 550,000 left. Nobody else's limits change. | Fixes it |
 
 You'll build option C.
-
-1. [] Select the **Configuration** tab, then select **Finance Cowork**. Find the two levers: the policy limit (1,200,000) is option A, and the per-user limit (500,000) is option B. Close the panel without saving.
 
 ### Create the power user group
 
