@@ -88,6 +88,8 @@ The lab includes two parts:
 5. [] Turn off **Allow new Agents and services as they become available**.
 6. [] Under **Microsoft Copilot**, select **Cowork** only. Uncheck all other services then select **Next**.
 
+Continue to the next page to complete Exercise 2.
+
 ===
 
 ## Exercise 2 (continued): Setup a Cowork pilot for the Sales team, with model and spend guardrails
