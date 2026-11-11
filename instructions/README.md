@@ -124,15 +124,16 @@ Continue to the next page to complete Exercise 2.
 
 **Goal:** Create one specific environment-based policy.
 
-1. On the **Configuration** tab, select **+ Add spending policy**, then select **Next**.
-2. Name the policy +++Sales Agent+++, then select **Resources** as the scope, then select **Next**.
-3. Select **Resource collection** (do not select **Specific resource**);  then select **Specific environments**. Search for +++Sales Agent Test Environment+++, then select **Sales Agent Test Environment**, then select **Next**.
-4. No action needed on the **Review agents and services** step.
-5. In **Set the monthly spending limit for this policy**, select **Limit monthly spending**, then enter +++500000+++ credits or +++5000+++ USD.
-6. In **Select monthly budget limit for agents**, select **Limit monthly spending per agent**, then enter +++250000+++ credits or +++2500+++ USD.
-7. Toggle on **Define alerts**. Your admin address is already filled in as the recipient. Search for +++Pete Pipeline+++ and add him. Set the alert threshold to +++80+++ percent, then select **Next**.
-8. In **Billing method**, keep the default billing method and default subscription selected, then select **Next**.
-9. Review the settings, then select **Create spending policy**.
+1. [] On the **Configuration** tab, select **+ Add spending policy**, then select **Next**.
+2. [] Name the policy +++Sales Agent+++, then select **Resources** as the scope.
+3. [] Select **Resource collection** (do not select **Specific resource**)
+4. [] Select **Specific environments**. Search for +++Sales Agent Test Environment+++, then select **Sales Agent Test Environment**, then select **Next**.
+5. [] No action needed on the **Review agents and services** step.
+6. [] In **Set the monthly spending limit for this policy**, select **Limit monthly spending**, then enter +++500000+++ credits or +++5000+++ USD.
+7. [] In **Select monthly budget limit for agents**, select **Limit monthly spending per agent**, then enter +++250000+++ credits or +++2500+++ USD.
+8. [] Toggle on **Define alerts**. Your admin address is already filled in as the recipient. Search for +++Pete Pipeline+++ and add him. Set the alert threshold to +++80+++ percent, then select **Next**.
+9. [] In **Billing method**, keep the default billing method and default subscription selected, then select **Next**.
+10. [] Review the settings, then select **Create spending policy**.
 
 ### Check your work
 
