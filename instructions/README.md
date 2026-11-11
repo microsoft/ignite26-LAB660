@@ -124,15 +124,16 @@ In the policy steps, select **Next** to move on to each new step.
 
 1. On the **Configuration** tab, select **+ Add spending policy**.
 2. Name the policy +++Sales Agent+++, then select **Resources** as the scope.
-3. Select **Resource collection**. Search for +++Sales Agent Test Environment+++, then select **Sales Agent Test Environment**. It's listed with its environment, Contoso Sales Projects.
-4. Set the monthly spending limit to +++300000+++.
-5. Set the alert threshold to +++80+++ percent. Your admin address is already a recipient. Search for +++Pete Pipeline+++ and add him.
-6. Keep **Lab-PAYG** as the billing method.
-7. Review the settings, then select **Create spending policy**.
+3. Select **Resource collection**, then select **Specific environments**. Search for +++Sales Agent Test Environment+++, then select **Sales Agent Test Environment**. It's listed with its environment, Contoso Sales Projects.
+4. No action needed on the **Review agents and services** step.
+5. In **Set the monthly spending limit for this policy**, select **Limit monthly spending**, then enter +++300000+++ credits.
+6. Toggle on **Define alerts**. Your admin address is already filled in as the recipient. Search for +++Pete Pipeline+++ and add him. Set the alert threshold to +++80+++ percent.
+7. In **Billing method**, keep the default billing method and default subscription selected. 
+8. Review the settings, then select **Create spending policy**.
 
 ### Check your work
 
-1. [] On the **Configuration** tab, check that your new policy is listed with a **Resources** scope.
+1. [] On the **Configuration** tab, check that your new policy is listed with a **Budget scope** as **1 environment**.
 
 ===
 
