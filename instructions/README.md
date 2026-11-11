@@ -76,8 +76,6 @@ The lab includes two parts:
 
 **Goal:** Create the policy **Sales Cowork pilot** for Contoso Sales, with the model profile **Sales no frontier models**: 1,000,000 credits for the team, 200,000 a person, and alerts at 80%.
 
-**Note:** Depending on screen resolution, you may have to scroll down on this instruction page. Ensure you have completed creating the spending policy before moving on to Excercise 3.
-
 ### Choose who the policy covers
 
 1. [] On the **Configuration** tab, select **+ Add spending policy**.
@@ -89,6 +87,10 @@ The lab includes two parts:
 
 5. [] Turn off **Allow new Agents and services as they become available**.
 6. [] Under **Microsoft Copilot**, select **Cowork** only. Uncheck all other services then select **Next**.
+
+===
+
+## Exercise 2 (continued): Setup a Cowork pilot for the Sales team, with model and spend guardrails
 
 ### Set limits and alerts
 
@@ -120,15 +122,13 @@ The lab includes two parts:
 
 **Goal:** Create one resource-based policy.
 
-In the policy steps, select **Next** to move on to each new step.
-
-1. On the **Configuration** tab, select **+ Add spending policy**.
-2. Name the policy +++Sales Agent+++, then select **Resources** as the scope.
-3. Select **Resource collection**, then select **Specific environments**. Search for +++Sales Agent Test Environment+++, then select **Sales Agent Test Environment**.
+1. On the **Configuration** tab, select **+ Add spending policy**, then select **Next**.
+2. Name the policy +++Sales Agent+++, then select **Resources** as the scope, then select **Next**.
+3. Select **Resource collection**, then select **Specific environments**. Search for +++Sales Agent Test Environment+++, then select **Sales Agent Test Environment**, then select **Next**.
 4. No action needed on the **Review agents and services** step.
 5. In **Set the monthly spending limit for this policy**, select **Limit monthly spending**, then enter +++300000+++ credits.
-6. Toggle on **Define alerts**. Your admin address is already filled in as the recipient. Search for +++Pete Pipeline+++ and add him. Set the alert threshold to +++80+++ percent.
-7. In **Billing method**, keep the default billing method and default subscription selected. 
+6. Toggle on **Define alerts**. Your admin address is already filled in as the recipient. Search for +++Pete Pipeline+++ and add him. Set the alert threshold to +++80+++ percent, then select **Next**.
+7. In **Billing method**, keep the default billing method and default subscription selected, then select **Next**.
 8. Review the settings, then select **Create spending policy**.
 
 ### Check your work
@@ -162,14 +162,14 @@ Part 2 starts here: the same Contoso two weeks later, on Monday, November 16. Th
     - **Policies approaching or at limit**: **Finance Cowork**, at $7,500 of $12,000 (63%). It's marked **Needs action** because it's past its 60% alert threshold.
     - **Users at ≥90% of spending limit**: **Sally Sales**, at $1,900 of $2,000 (95%), and **Fiona Forecast**, at $4,500 of $5,000 (90%)
 3. [] Scroll down to the spending cards. You should see:
-    - **Spending**: $13,300.00 estimated spend this month. The second week (November 9 to 15) is 50% higher than the first, with weekday peaks of 140,160 credits ($1,401.60).
+    - **Spending**: $13,300.00 estimated spend this month.
     - **Agents and services spending the most credits (month to date)**: **Cowork**, $11,500, and **Sales Agent**, $1,800 credits
     - **Top users by cost**: Fiona Forecast $4,500.00, Sally Sales $1,900.00, Polly Procurement $1,500.00, Bill Budget $1,500.00 and Pete Pipeline $800.00
 4. [] Select the **Consumption** tab. The **Policies** view is sorted by **Cost**.
 
 5. [] Switch to the **Users & groups** view. The list is set to **Group by** **All users**. The list is sorted by **Total credits used**. 
 
-6. [] Select **Fiona Forecast** to open her details. You should see her daily usage under **Finance Cowork**: 31,296 credits each weekday from November 2 to 6, rising to 46,944 each weekday from November 9 to 13.
+6. [] Select **Fiona Forecast** to open her details. You should see her daily usage under **Finance Cowork**. Additionally, her cost should be $4,500 for the first two weeks of November.
 
 ===
 
