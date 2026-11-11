@@ -31,10 +31,11 @@ The lab includes two parts:
 
 ### Sign in to Tenant
 
-1. [] Sign in to Windows. If you see the lock screen, select @lab.CtrlAltDelete first. Select each value to type it:
+1. [] Sign in to Windows. If you see the lock screen, select Sign in. Use the following credentials if asked for:
     - Username: +++@lab.VirtualMachine(Ignite26LAB660).Username+++
     - Password: +++@lab.VirtualMachine(Ignite26LAB660).Password+++
-2. [] On the desktop, double-click **Microsoft Edge**. If Edge shows a welcome or setup screen, close it.
+    - If sign in doesnt work select @lab.CtrlAltDelete first
+2. [] **Microsoft Edge** session must be open. If not then on the desktop, double-click **Microsoft Edge**. If Edge shows a welcome or setup screen, close it.
 3. [] Click in the Edge address bar, select +++https://admin.cloud.microsoft+++, then press **Enter**.
 4. [] Click in the email box, select +++@lab.CloudCredential(PoolB).Sign-inName+++, then select **Next**.
 5. [] Click in the password box, select +++@lab.CloudCredential(PoolB).Sign-inCode+++, then select **Sign in**.
