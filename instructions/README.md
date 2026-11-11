@@ -63,7 +63,7 @@ The lab includes two parts:
 7. [] Toggle on **Define alerts**. Your admin address is already filled in as the recipient. Set the threshold to +++80+++ percent.
 8. [] Select **Customize setup** and review what the policy covers: **All users**, and all supported services. Don't change anything.
 9. [] Click the **Agents and services** section and verify that the top toggle **Allow new Agents and services as they become available** is enabled.
-10. [] Select **Activate**. When setup is complete, select **Manage Configuration**.
+10. [] Select **Activate**. When setup is complete, select **Manage Configuration**. Be patient - this step could take 60-90 seconds.
 11. [] On the **Configuration** tab, check that the default **All Users Policy** is listed as **Enabled**.
 
 ===
