@@ -103,7 +103,7 @@ Continue to the next page to complete Exercise 2.
 
 ### Choose the models
 
-11. [] In **Model profiles**, select **Customize model selection** > **Create new model profile**.
+11. [] In **Model Template**, select **Customize model selection** > **Create new model profile**.
 12. [] Name the profile +++Sales no frontier models+++.
 13. [] Select **Anthropic > Opus** and **OpenAI > Sol**. The models **Anthropic > Sonnet** and **OpenAI > Terra** are required. Leave every other model unchecked, including the frontier models such as **Anthropic > Fable** and **OpenAI > Astra**.
 14. [] Select **Save**, then select **Next**.
@@ -112,7 +112,7 @@ Continue to the next page to complete Exercise 2.
 
 16. [] In **Billing method**, keep the default billing method and default subscription selected. Select **Next**.
 17. [] Review each section, select **Create spending policy**, then select **Done**.
-18. [] Check that the **Configuration** tab lists two policies: the default **All Users Policy** (from Excercise 1) and **Sales Cowork pilot**.
+18. [] Check that the **Configuration** tab lists two policies: the default **All Users Policy** (from Exercise 1) and **Sales Cowork pilot**.
 
 ===
 
