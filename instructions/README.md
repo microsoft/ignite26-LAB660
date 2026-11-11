@@ -32,8 +32,8 @@ You'll work in two tenants:
 ### Sign in to Tenant
 
 1. [] Sign in to Windows. If you see the lock screen, select @lab.CtrlAltDelete first. Select each value to type it:
-    - Username: +++@lab.VirtualMachine(Win11-Pro-Base).Username+++
-    - Password: +++@lab.VirtualMachine(Win11-Pro-Base).Password+++
+    - Username: +++@lab.VirtualMachine(LAB660).Username+++
+    - Password: +++@lab.VirtualMachine(LAB660).Password+++
 2. [] On the desktop, double-click **Microsoft Edge**. If Edge shows a welcome or setup screen, close it.
 3. [] Click in the Edge address bar, select +++https://admin.cloud.microsoft+++, then press **Enter**.
 4. [] Click in the email box, select +++@lab.CloudCredential(PoolB).Sign-inName+++, then select **Next**.
