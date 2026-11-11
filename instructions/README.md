@@ -84,8 +84,8 @@ The lab includes two parts:
 
 ### Choose the service
 
-5. [] In **Select agents and services**, select **Cowork** only. You can find this checkbox under **Microsoft Copilot**
-6. [] Turn off **Auto-apply new services**, then select **Next**.
+5. [] Turn off **Allow new Agents and services as they become available**.
+6. [] Under **Microsoft Copilot**, select **Cowork** only. Uncheck all other services then select **Next**.
 
 ### Set limits and alerts
 
