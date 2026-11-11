@@ -6,7 +6,7 @@ You're the Microsoft 365 admin at **Contoso**. Contoso has used Microsoft 365 Co
 
 You'll work in two tenants:
 
-| Part | Where Contoso is | Exercises |
+| Part | Where Contoso is on their AI journey | Exercises |
 |---|---|---|
 | Part 1: Set up  | November 1. Usage-based billing isn't turned on yet, and there are no spending policies. | 1, 2 and 3 |
 | Part 2: Operate | November 16, two weeks later. The Sales policies from Part 1 are in place, plus one for Finance, with two weeks of usage data. | 4 and 5 |
@@ -14,7 +14,7 @@ You'll work in two tenants:
 | Exercise | Time | What you'll do |
 |---|---|---|
 | 1 | 8 minutes | Turn on usage-based billing with a default policy for everyone |
-| 2 | 9 minutes | Open Cowork to the Sales team as a pilot, with guardrails |
+| 2 | 9 minutes | Setup a Cowork pilot for the Sales team, with model and spend guardrails |
 | 3 | 8 minutes | Put a budget on the Sales team's agents |
 | 4 | 8 minutes | Navigate to the link, then find the policies and people that need action |
 | 5 | 12 minutes | Unblock Finance's power user without raising everyone's limits |
@@ -67,11 +67,11 @@ You'll work in two tenants:
 
 ===
 
-## Exercise 2: Open Cowork to Sales as a pilot, with guardrails
+## Exercise 2: Setup a Cowork pilot for the Sales team, with model and spend guardrails
 
 ⏱ About 9 minutes · 
 
-**Scenario:** The Sales VP's team wants to use Cowork for proposals, account research and pipeline analysis, and $20 a month won't last them. You agree to a pilot with guardrails: Cowork only, $2,000 a person and $10,000 for the team, a warning before anyone is cut off, and a short list of approved models.
+**Scenario:** The Sales team wants to pilot an increase in their team's Cowork credits to support sales proposals, account research and pipeline analysis. They anticipate needing more than the current default of $20 based on recent usage patterns.  a month won't last them. You all agree to a scaled up pilot with guardrails: Cowork only, $2,000 a person and $10,000 for the team, a warning before anyone is cut off, and a scoped list of approved models.
 
 **Goal:** Create the policy **Sales Cowork pilot** for Contoso Sales, with the model profile **Sales no frontier models**: 1,000,000 credits for the team, 200,000 a person, and alerts at 80%.
 
