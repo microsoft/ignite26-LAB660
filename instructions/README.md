@@ -191,15 +191,15 @@ Part 2 starts here: the same Contoso two weeks later, on Monday, November 16. Th
 
 You'll build option C.
 
-### Create the power user group
+### Option C: Create the power user group
 
-2. [] In the left navigation, select **Teams & groups** > **Active teams & groups**, then select the **Security groups** tab. If you don't see **Teams & groups**, select **Show all** first.
+2. [] In the left navigation, select **Groups** > **Active groups**, then select the **Security groups** tab. If you don't see **Teams & groups**, select **Show all** first.
 3. [] Select **Add a security group**.
 4. [] On **Set up the basics**, enter the name +++Copilot Power Users+++ and the description +++Approved Copilot power users with higher limits+++, then select **Next**.
 5. [] On **Edit settings**, don't change anything, then select **Next**.
 6. [] Review your selections, select **Create group**, then select **Close**.
 7. [] In the **Security groups** list, select **Copilot Power Users**. If it isn't listed yet, refresh the page.
-8. [] Select the **Members** tab, then select **View all and manage members**. Search for +++Fiona+++, select **Fiona Forecast**, then select **Add**. Close the panel. Fiona stays in Contoso Finance too.
+8. [] Select the **Members** tab, then select **View all and manage members**. Select **Add members** and search for +++Fiona+++, select **Fiona Forecast**, then select **Add**. Close the panel. Fiona stays in Contoso Finance too.
 
 ===
 
@@ -210,18 +210,18 @@ You'll build option C.
 9. [] Select **Copilot** > **Cost Management** > **Configuration**, then select **+ Add spending policy**.
 10. [] Name the policy +++Copilot Power Users+++, then select **Identity** as the scope.
 11. [] Switch from **All users** to **Specific groups**. Search for +++Copilot Power Users+++, select it, then select **Next**. If the group isn't listed yet, wait a minute and search again.
-12. [] In **Select agents and services**, select **Cowork**. Turn off **Auto-apply new services**, then select **Next**.
-13. [] Select **Limited monthly budget** and enter +++2000000+++.
-14. [] Turn on the monthly budget limit for users and enter +++1000000+++.
-15. [] Set the policy alert threshold to +++80+++ percent. Turn on user notifications at +++80+++ percent, then select **Next**.
+12. [] In **Select agents and services**, turn off **Allow new Agents and services as they become available**. Under **Microsoft Copilot**, select **Cowork** only. Uncheck all other services then select **Next**.
+13. [] In **Set the monthly spending limit for this policy**, select **Limit monthly spending**, then enter +++2000000+++ credits.
+14. [] In **Select monthly budget limits for users**, select **limit monthly spending per user**, then enter +++1000000+++ credits.
+15. [] Toggle on **Define alerts**. Set the policy alert threshold to +++80+++ percent. Turn on user notifications at +++80+++ percent, then select **Next**.
 16. [] In **Model profiles**, keep the default models (don't customize the model selection), then select **Next**. These are the same models Fiona had in Finance.
-17. [] In **Select billing method**, keep **Lab-PAYG**, then select **Next**.
+17. [] In **Billing method**, keep the default billing method and default subscription selected then select **Next**.
 18. [] Review the settings, select **Create spending policy**, then select **Done**. Check that the **Configuration** tab now lists four policies, including **Copilot Power Users**.
 
 ### Check the result
 
 19. [] Select the **Overview** tab and refresh the page. Once the change applies, **Fiona Forecast** is no longer in **Users at ≥90% of spending limit**. **Sally Sales** is still there at 95%, because you changed Fiona's limit only.
-20. [] Select the **Consumption** tab, then the **Users & groups** view. Fiona's 450,000 credits carry forward against her new 1,000,000 limit: 45% used, with 550,000 left. **Finance Cowork** keeps the 750,000 credits used before the move, and **Copilot Power Users** shows no credits yet.
+20. [] Select the **Consumption** tab, then the **Users & groups** view. Fiona's 450,000 credits used carry forward against her new 1,000,000 limit: 45% used, with 550,000 left. **Finance Cowork** keeps the 750,000 credits used before the move, and **Copilot Power Users** shows no credits yet.
 
 > [!Note] Group membership and dashboard updates can take a few minutes. If you don't see the change yet, check again later.
 
