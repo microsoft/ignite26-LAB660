@@ -2,7 +2,7 @@
 
 ## Lab overview
 
-You're the Microsoft 365 admin at **Contoso**. Contoso has used Microsoft 365 Copilot for months, and now teams want Cowork and agents, which are billed by usage in Copilot Credits. In this lab, you'll set up the controls for that spend, then use them to act on two weeks of usage.
+You're the Microsoft 365 admin at **Contoso**. Contoso has used Microsoft 365 Copilot for months, and now teams want to use Cowork and agents, which are billed by usage in Copilot Credits. In this lab, you'll set up the controls for that spend, then use them to act on two weeks of usage.
 
 You'll work in two tenants:
 
