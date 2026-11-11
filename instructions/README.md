@@ -75,6 +75,8 @@ The lab includes two parts:
 
 **Goal:** Create the policy **Sales Cowork pilot** for Contoso Sales, with the model profile **Sales no frontier models**: 1,000,000 credits for the team, 200,000 a person, and alerts at 80%.
 
+**Note:** Depending on screen resolution, you may have to scroll down on this instruction page. Ensure you have completed creating the spending policy before moving on to Excercise 3.
+
 ### Choose who the policy covers
 
 1. [] On the **Configuration** tab, select **+ Add spending policy**.
@@ -89,24 +91,24 @@ The lab includes two parts:
 
 ### Set limits and alerts
 
-7. [] Select **Limited monthly budget** and enter +++1000000+++.
-8. [] Turn on the monthly budget limit for users and enter +++200000+++.
-9. [] Set the policy alert threshold to +++80+++ percent. Your admin address is already a recipient.
-10. [] Turn on user notifications at +++80+++ percent, then select **Next**.
+7. [] In **Set the monthly spending limit for this policy**, select **Limit monthly spending**, then enter +++1000000+++ credits.
+8. [] In **Select monthly budget limits for users**, select **limit monthly spending per user**, then enter +++200000+++ credits.
+9. [] Toggle on **Define alerts**. Your admin address is already filled in as the recipient. Set the policy alert threshold (the top one) to +++80+++ percent.
+10. [] Set the user alert threshold to +++80+++ percent, then select **Next**.
 
 ### Choose the models
 
 11. [] In **Model profiles**, select **Customize model selection** > **Create new model profile**.
 12. [] Name the profile +++Sales no frontier models+++.
-13. [] Select **[STANDARD MODEL 1]** and **[STANDARD MODEL 2]**. Leave every other model cleared, including the frontier models.
+13. [] Select **Anthropic > Fable** and **OpenAI > Astra**. Leave every other model cleared, including the frontier models.
 14. [] Select **Microsoft can select the most comparable model to maintain availability**.
 15. [] Select **Save**, then select **Next**.
 
 ### Choose billing and create the policy
 
-16. [] In **Select billing method**, keep **Lab-PAYG**, then select **Next**.
+16. [] In **Billing method**, keep the default billing method and default subscription selected. Select **Next**.
 17. [] Review each section, select **Create spending policy**, then select **Done**.
-18. [] Check that the **Configuration** tab lists two policies: **Default spending policy** and **Sales Cowork pilot**.
+18. [] Check that the **Configuration** tab lists two policies: the default **All Users Policy** (from Excercise 1) and **Sales Cowork pilot**.
 
 ===
 
