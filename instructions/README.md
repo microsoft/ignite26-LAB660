@@ -4,7 +4,7 @@
 
 You're the Microsoft 365 admin at **Contoso**. Contoso has used Microsoft 365 Copilot for months, and now teams want to use Cowork and agents, which are billed by usage in Copilot Credits. In this lab, you'll set up the controls for that spend, then use them to act on two weeks of usage.
 
-You'll work in two tenants:
+The lab includes two parts:
 
 | Part | Where Contoso is on their AI journey | Exercises |
 |---|---|---|
@@ -13,7 +13,7 @@ You'll work in two tenants:
 
 | Exercise | Time | What you'll do |
 |---|---|---|
-| 1 | 8 minutes | Turn on usage-based billing with a default policy for everyone |
+| 1 | 8 minutes | Turn on usage-based billing with a default policy for all users |
 | 2 | 9 minutes | Setup a Cowork pilot for the Sales team, with model and spend guardrails |
 | 3 | 8 minutes | Put a budget on the Sales team's agents |
 | 4 | 8 minutes | Navigate to the link, then find the policies and people that need action |
@@ -23,7 +23,7 @@ You'll work in two tenants:
 
 - Text formatted like +++this example+++ is type text. Click in the box you want to fill, then select the text, and it's typed for you.
 - Select the check box next to each step when you finish it.
-- In Part 2, you'll open new link in another window, so you stay signed in with the same user.
+- In Part 2, you'll open a new link in another window, so you stay signed in with the same user.
 - About 25 minutes into the hands-on time, the presenter will ask everyone to move to Part 2, even if you haven't finished.
 - Need help? Raise your hand and a proctor will come to you.
 
@@ -41,7 +41,7 @@ You'll work in two tenants:
 6. [] If you're asked **Stay signed in?**, select **Yes**.
 7. [] Check that the **Microsoft 365 admin center** home page opens. Keep this Edge window open.
 
-> [!Help] Type text goes wherever your cursor is, so click in the right box before you select it. If sign-in still fails, raise your hand.
+> [!Help] Type text goes wherever your cursor is, so click in the right box before you select it. If sign-in still fails, check the resources tab for the email and password. If that still fails, raise your hand.
 
 ===
 
@@ -51,19 +51,19 @@ You'll work in two tenants:
 
 **Scenario:** It's November 1. Contoso uses Microsoft 365 Copilot, but Cowork and other usage-based experiences stay off until you turn on usage-based billing. The CIO and CFO agree to let everyone try them under a safe ceiling: $20 a person a month, any model, paid from the Azure subscription **Lab-PAYG**, with a warning at 80%.
 
-**Goal:** Turn on usage-based billing with a default spending policy for all users: 2,000 credits ($20) a person, 20,000 credits for the organization, and alerts at 80%.
+**Goal:** Turn on usage-based billing with a default spending policy for all users: 2,000 credits ($20) a person, 20,000 credits ($200) for the organization, and alerts at 80%.
 
 1. [] In the admin center's left navigation, select **Copilot** > **Cost Management**. If you don't see **Copilot**, select **Show all** first.
 2. [] Select **Get started**. You should see the panel **Activate the default spending policy for your organization**.
-3. [] In the **Billing method** section, open the subscription list and select **Lab-PAYG**. Don't select **Create new**.
+3. [] In the **Billing method** section, select **Use pay-as-you-go subscription**. A default subscription will be selected. Do not select **Create new**.
 4. [] Select **Advanced billing settings** to expand it. Keep the region that's selected as default.
-5. [] In **Set the monthly spending limit for this policy**, select **Limit monthly spending**, then enter +++20000+++.
-6. [] Turn on the monthly spending limit for users, then enter +++2000+++.
-7. [] In **Define alerts**, set the threshold to +++80+++ percent. Your admin address is already filled in as the recipient.
-8. [] Select **Customize setup configuration** and review what the policy covers: **All users**, all supported services and the default models. Don't change anything.
-9. [] Check that **Auto-apply new services** is on, and leave it on.
+5. [] In **Set the monthly spending limit for this policy**, select **Limit monthly spending**, then enter +++20000+++ credits.
+6. [] In **Select monthly budget limits for users**, select **limit monthly spending per user**, then enter +++2000+++ credits.
+7. [] Toggle on **Define alerts**. Your admin address is already filled in as the recipient. Set the threshold to +++80+++ percent.
+8. [] Select **Customize setup** and review what the policy covers: **All users**, and all supported services. Don't change anything.
+9. [] Click the **Agents and services** section and verify that the top toggle **Allow new Agents and services as they become available** is enabled.
 10. [] Select **Activate**. When setup is complete, select **Manage Configuration**.
-11. [] On the **Configuration** tab, check that **Default spending policy** is listed as **Enabled**.
+11. [] On the **Configuration** tab, check that the default **All Users Policy** is listed as **Enabled**.
 
 ===
 
