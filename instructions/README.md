@@ -160,7 +160,7 @@ Part 2 starts here: the same Contoso two weeks later, on Monday, November 16. Th
     - **Total Copilot Credits used**: 1,330,000
     - **Active users of Copilot Credits**: 8
     - **Cost this month**: $13K
-    - **Value**: 28K
+    - **Value**: $51K
 2. [] Review the cards that flag what needs action. You should see:
     - **Policies approaching or at limit**: **Finance Cowork**, at $7,500 of $12,000 (63%). It's marked **Needs action** because it's past its 60% alert threshold.
     - **Users at ≥90% of spending limit**: **Sally Sales**, at $1,900 of $2,000 (95%), and **Fiona Forecast**, at $4,500 of $5,000 (90%)
