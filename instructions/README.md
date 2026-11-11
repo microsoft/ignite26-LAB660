@@ -143,7 +143,7 @@ Continue to the next page to complete Exercise 2.
 
 Part 2 starts here: the same Contoso two weeks later, on Monday, November 16. The **Sales Cowork pilot** and **Sales environment agents** policies are live. IT also added **Finance Cowork** on November 1, when Finance asked for room for its month-end close.
 
-1. [] In Edge, open another window: press **Ctrl+N**.
+1. [] In Edge, open a new browser tab: press **Ctrl+T**.
 2. [] Click in the address bar, select +++aka.ms/lab660+++, then press **Enter**.
 3. [] Select **Copilot** > **Cost Management**. You should see the **Overview** tab with two weeks of data.
 
