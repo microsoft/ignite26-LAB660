@@ -101,7 +101,7 @@ The lab includes two parts:
 
 11. [] In **Model profiles**, select **Customize model selection** > **Create new model profile**.
 12. [] Name the profile +++Sales no frontier models+++.
-13. [] Select **Anthropic > Fable** and **OpenAI > Astra**. Leave every other model cleared, including the frontier models.
+13. [] Select **Anthropic > Opus** and **OpenAI > Sol**. **Anthropic > Sonnet** and **OpenAI > Terra** are required. Leave every other model unchecked, including the frontier models such as **Anthropic > Fable** and **OpenAI > Astra**.
 14. [] Select **Microsoft can select the most comparable model to maintain availability**.
 15. [] Select **Save**, then select **Next**.
 
