@@ -185,9 +185,9 @@ Part 2 starts here: the same Contoso two weeks later, on Monday, November 16. Th
 
 | Option | The change | How to | What happens | Verdict |
 |---|---|---|---|---|
-| A: Raise the team limit | Raise Finance Cowork's 1,200,000 team limit | Select the **Configuration** tab, then select **Finance Cowork**. Find the two levers: the policy limit (1,200,000) is option A, and the per-user limit (500,000) is option B. Close the panel without saving. | Fiona is still capped by her 500,000 personal limit, with only 50,000 credits left. | Doesn't help Fiona |
-| B: Raise everyone's personal limit | Per-user limit from 500,000 to 1,000,000 for all of Finance | Select the **Configuration** tab, then select **Finance Cowork**. Find the two levers: the policy limit (1,200,000) is option A, and the per-user limit (500,000) is option B. Close the panel without saving. | Polly and Bill, at 30% of their limits, get room they don't need. All three still share a team limit that's already at 62.5%. | Raises the ceiling for everyone to fix one person |
-| C: A power user group | A new group, Copilot Power Users, with its own policy at 1,000,000 a person. Fiona joins it. | Fiona's 450,000 credits carry forward: 45% of her new limit, with 550,000 left. Nobody else's limits change. | Fixes it |
+| A: Raise the team limit | Raise Finance Cowork's 1,200,000 team limit | Select the **Configuration** tab, then select **Finance Cowork**. Increase the policy limit (1,200,000). For this exercise, close the panel without saving. | Fiona is still capped by her 500,000 personal limit, with only 50,000 credits left. | Doesn't help Fiona |
+| B: Raise everyone's personal limit | Per-user limit from 500,000 to 1,000,000 for all of Finance | Select the **Configuration** tab, then select **Finance Cowork**. Increase the per-user limit (500,000). For this exercise, close the panel without saving. | Polly and Bill, at 30% of their limits, get room they don't need. All three still share a team limit that's already at 62.5%. | Raises the ceiling for everyone to fix one person |
+| C: A power user group | A new group, Copilot Power Users, with its own policy at 1,000,000 a person. Fiona joins it. | Exercise 5 below |  Fiona's 450,000 credits carry forward: 45% of her new limit, with 550,000 left. Nobody else's limits change. | Fixes it |
 
 You'll build option C.
 
