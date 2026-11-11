@@ -58,8 +58,8 @@ The lab includes two parts:
 2. [] Select **Get started**. You should see the panel **Activate the default spending policy for your organization**.
 3. [] In the **Billing method** section, Uncheck **Use Capacity Packs**.
 4. [] Select **Use pay-as-you-go subscription**. Select the available subscription.
-5. [] In **Set the monthly spending limit for this policy**, select **Limit monthly spending**, then enter +++20000+++ credits.
-6. [] In **Select monthly budget limits for users**, select **limit monthly spending per user**, then enter +++2000+++ credits.
+5. [] In **Set the monthly spending limit for this policy**, select **Limit monthly spending**, then enter either +++20000+++ credits or +++200+++ USD.
+6. [] In **Select monthly budget limits for users**, select **limit monthly spending per user**, then enter +++2000+++ credits or +++20+++ USD.
 7. [] Toggle on **Define alerts**. Your admin address is already filled in as the recipient. Set the threshold to +++80+++ percent.
 8. [] Select **Customize setup** and review what the policy covers: **All users**, and all supported services. Don't change anything.
 9. [] Click the **Agents and services** section and verify that the top toggle **Allow new Agents and services as they become available** is enabled.
@@ -96,8 +96,8 @@ Continue to the next page to complete Exercise 2.
 
 ### Set limits and alerts
 
-7. [] In **Set the monthly spending limit for this policy**, select **Limit monthly spending**, then enter +++1000000+++ credits.
-8. [] In **Select monthly budget limits for users**, select **limit monthly spending per user**, then enter +++200000+++ credits.
+7. [] In **Set the monthly spending limit for this policy**, select **Limit monthly spending**, then enter +++1000000+++ credits or +++10000+++ USD.
+8. [] In **Select monthly budget limits for users**, select **limit monthly spending per user**, then enter +++200000+++ credits or +++2000+++ USD.
 9. [] Toggle on **Define alerts**. Your admin address is already filled in as the recipient. Set the policy alert threshold (the top one) to +++80+++ percent.
 10. [] Set the user alert threshold to +++80+++ percent, then select **Next**.
 
@@ -128,8 +128,8 @@ Continue to the next page to complete Exercise 2.
 2. Name the policy +++Sales Agent+++, then select **Resources** as the scope, then select **Next**.
 3. Select **Resource collection**, then select **Specific environments**. Search for +++Sales Agent Test Environment+++, then select **Sales Agent Test Environment**, then select **Next**.
 4. No action needed on the **Review agents and services** step.
-5. In **Set the monthly spending limit for this policy**, select **Limit monthly spending**, then enter +++500000+++ credits.
-6. In **Select monthly budget limit for agents**, select **Limit monthly spending per agent**, then enter +++250000+++ credits.
+5. In **Set the monthly spending limit for this policy**, select **Limit monthly spending**, then enter +++500000+++ credits or +++5000+++ USD.
+6. In **Select monthly budget limit for agents**, select **Limit monthly spending per agent**, then enter +++250000+++ credits or +++2500+++ USD.
 7. Toggle on **Define alerts**. Your admin address is already filled in as the recipient. Search for +++Pete Pipeline+++ and add him. Set the alert threshold to +++80+++ percent, then select **Next**.
 8. In **Billing method**, keep the default billing method and default subscription selected, then select **Next**.
 9. Review the settings, then select **Create spending policy**.
