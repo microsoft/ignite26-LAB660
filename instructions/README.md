@@ -122,11 +122,11 @@ Continue to the next page to complete Exercise 2.
 
 **Scenario:** The Sales team builds its agents in one Copilot Studio environment, **Contoso Sales Projects**. It holds the **Sales Agent**, which goes live to the team this week, and **Proposal Helper**. Every conversation uses credits. Pete Pipeline owns both agents. Finance wants a monthly cap, and you and Pete should both hear when spend gets close.
 
-**Goal:** Create one resource-based policy.
+**Goal:** Create one specific environment-based policy.
 
 1. On the **Configuration** tab, select **+ Add spending policy**, then select **Next**.
 2. Name the policy +++Sales Agent+++, then select **Resources** as the scope, then select **Next**.
-3. Select **Resource collection**, then select **Specific environments**. Search for +++Sales Agent Test Environment+++, then select **Sales Agent Test Environment**, then select **Next**.
+3. Select **Resource collection** (do not select **Specific resource**);  then select **Specific environments**. Search for +++Sales Agent Test Environment+++, then select **Sales Agent Test Environment**, then select **Next**.
 4. No action needed on the **Review agents and services** step.
 5. In **Set the monthly spending limit for this policy**, select **Limit monthly spending**, then enter +++500000+++ credits or +++5000+++ USD.
 6. In **Select monthly budget limit for agents**, select **Limit monthly spending per agent**, then enter +++250000+++ credits or +++2500+++ USD.
