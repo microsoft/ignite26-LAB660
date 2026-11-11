@@ -211,8 +211,8 @@ You'll build option C.
 10. [] Name the policy +++Copilot Power Users+++, then select **Identity** as the scope.
 11. [] Switch from **All users** to **Specific groups**. Search for +++Copilot Power Users+++, select it, then select **Next**. If the group isn't listed yet, wait a minute and search again.
 12. [] In **Select agents and services**, turn off **Allow new Agents and services as they become available**. Under **Microsoft Copilot**, select **Cowork** only. Uncheck all other services then select **Next**.
-13. [] In **Set the monthly spending limit for this policy**, select **Limit monthly spending**, then enter +++2000000+++ credits.
-14. [] In **Select monthly budget limits for users**, select **limit monthly spending per user**, then enter +++1000000+++ credits.
+13. [] In **Set the monthly spending limit for this policy**, select **Limit monthly spending**, then enter +++20000+++.
+14. [] In **Select monthly budget limits for users**, select **limit monthly spending per user**, then enter +++10000+++.
 15. [] Toggle on **Define alerts**. Set the policy alert threshold to +++80+++ percent. Turn on user notifications at +++80+++ percent, then select **Next**.
 16. [] In **Model profiles**, keep the default models (don't customize the model selection), then select **Next**. These are the same models Fiona had in Finance.
 17. [] In **Billing method**, keep the default billing method and default subscription selected then select **Next**.
