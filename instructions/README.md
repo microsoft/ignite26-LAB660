@@ -56,8 +56,8 @@ The lab includes two parts:
 
 1. [] In the admin center's left navigation, select **Copilot** > **Cost Management**. If you don't see **Copilot**, select **Show all** first.
 2. [] Select **Get started**. You should see the panel **Activate the default spending policy for your organization**.
-3. [] In the **Billing method** section, select **Use pay-as-you-go subscription**. A default subscription will be selected. Do not select **Create new**.
-4. [] Select **Advanced billing settings** to expand it. Keep the region that's selected as default.
+3. [] In the **Billing method** section, Uncheck **Use Capacity Packs**.
+4. [] Select **Use pay-as-you-go subscription**. Select the available subscription.
 5. [] In **Set the monthly spending limit for this policy**, select **Limit monthly spending**, then enter +++20000+++ credits.
 6. [] In **Select monthly budget limits for users**, select **limit monthly spending per user**, then enter +++2000+++ credits.
 7. [] Toggle on **Define alerts**. Your admin address is already filled in as the recipient. Set the threshold to +++80+++ percent.
