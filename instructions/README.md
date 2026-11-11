@@ -124,7 +124,7 @@ In the policy steps, select **Next** to move on to each new step.
 
 1. On the **Configuration** tab, select **+ Add spending policy**.
 2. Name the policy +++Sales Agent+++, then select **Resources** as the scope.
-3. Select **Resource collection**, then select **Specific environments**. Search for +++Sales Agent Test Environment+++, then select **Sales Agent Test Environment**. It's listed with its environment, Contoso Sales Projects.
+3. Select **Resource collection**, then select **Specific environments**. Search for +++Sales Agent Test Environment+++, then select **Sales Agent Test Environment**.
 4. No action needed on the **Review agents and services** step.
 5. In **Set the monthly spending limit for this policy**, select **Limit monthly spending**, then enter +++300000+++ credits.
 6. Toggle on **Define alerts**. Your admin address is already filled in as the recipient. Search for +++Pete Pipeline+++ and add him. Set the alert threshold to +++80+++ percent.
