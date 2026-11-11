@@ -32,8 +32,8 @@ The lab includes two parts:
 ### Sign in to Tenant
 
 1. [] Sign in to Windows. If you see the lock screen, select @lab.CtrlAltDelete first. Select each value to type it:
-    - Username: +++@lab.VirtualMachine(LAB660).Username+++
-    - Password: +++@lab.VirtualMachine(LAB660).Password+++
+    - Username: +++@lab.VirtualMachine(Ignite26LAB660).Username+++
+    - Password: +++@lab.VirtualMachine(Ignite26LAB660).Password+++
 2. [] On the desktop, double-click **Microsoft Edge**. If Edge shows a welcome or setup screen, close it.
 3. [] Click in the Edge address bar, select +++https://admin.cloud.microsoft+++, then press **Enter**.
 4. [] Click in the email box, select +++@lab.CloudCredential(PoolB).Sign-inName+++, then select **Next**.
@@ -49,7 +49,7 @@ The lab includes two parts:
 
 ⏱ About 8 minutes ·
 
-**Scenario:** It's November 1. Contoso uses Microsoft 365 Copilot, but Cowork and other usage-based experiences stay off until you turn on usage-based billing. The CIO and CFO agree to let everyone try them under a safe ceiling: $20 a person a month, any model, paid from the Azure subscription **Lab-PAYG**, with a warning at 80%.
+**Scenario:** It's November 1. Contoso uses Microsoft 365 Copilot, but Cowork and other usage-based experiences stay off until you turn on usage-based billing. The CIO and CFO agree to let everyone try them under a safe ceiling: $20 a person a month, any model, paid from the Azure subscription, with a warning at 80%.
 
 **Goal:** Turn on usage-based billing with a default spending policy for all users: 2,000 credits ($20) a person, 20,000 credits ($200) for the organization, and alerts at 80%.
 
