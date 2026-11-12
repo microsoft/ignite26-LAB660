@@ -58,7 +58,7 @@ The lab includes two parts:
 2. [] Select **Get started**. You should see the panel **Activate the default spending policy for your organization**.
 3. [] In the **Billing method** section, Uncheck **Use Capacity Packs**.
 4. [] Select **Use pay-as-you-go subscription**. Select the available subscription.
-5. [] In **Set the monthly spending limit for this policy**, select **Limit monthly spending**, then enter either +++20000+++ credits or +++200+++ USD.
+5. [] In **Set the monthly spending limit for this policy**, select **Limit monthly spending**, then enter either +++50000+++ credits or +++500+++ USD.
 6. [] In **Select monthly budget limits for users**, select **limit monthly spending per user**, then enter +++2000+++ credits or +++20+++ USD.
 7. [] Toggle on **Define alerts**. Your admin address is already filled in as the recipient. Set the threshold to +++80+++ percent.
 8. [] Select **Customize setup** and review what the policy covers: **All users**, and all supported services. Don't change anything.
