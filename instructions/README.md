@@ -11,7 +11,7 @@ The lab includes two parts:
 | Part 1: Activate AI consumption and initial policies  | November 1. Usage-based billing isn't turned on yet, and there are no spending policies configured yet. | 1, 2 and 3 |
 | Part 2: Adjust policies | November 16, two weeks later. The Sales policies from Part 1 are in place, plus one for Finance, with two weeks of usage data. | 4 and 5 |
 
-| Exercise | Time | What you'll do |
+| Exercise | Time | What you will do |
 |---|---|---|
 | 1 | 8 minutes | Turn on usage-based billing with a default spend policy for all users |
 | 2 | 9 minutes | Set up a Cowork pilot for the Sales team, with model and spend guardrails |
