@@ -14,7 +14,7 @@ The lab includes two parts:
 | Exercise | Time | What you'll do |
 |---|---|---|
 | 1 | 8 minutes | Turn on usage-based billing with a default spend policy for all users |
-| 2 | 9 minutes | Setup a Cowork pilot for the Sales team, with model and spend guardrails |
+| 2 | 9 minutes | Set up a Cowork pilot for the Sales team, with model and spend guardrails |
 | 3 | 8 minutes | Set a limit on the Sales team's agents (using a specific environment) |
 | 4 | 8 minutes | Understand the AI spend and value as well as policies that require action |
 | 5 | 12 minutes | Unblock Finance's power user without raising everyone's limits |
@@ -63,22 +63,22 @@ The lab includes two parts:
 4. [] Select **Use pay-as-you-go subscription**. Select the available subscription.
 5. [] In **Set the monthly spending limit for this policy**, select **Limit monthly spending**, then enter either +++15000+++ credits or +++150+++ USD.
 6. [] In **Select monthly budget limits for users**, select **limit monthly spending per user**, then enter +++2000+++ credits or +++20+++ USD.
-7. [] Toggle on **Define alerts**. Your admin address is already filled in as the recipient. Set the threshold to +++80+++ percent.
+7. [] Turn on **Define alerts**. Leave the email box empty: your admin account, **Contoso Admin** is already listed as a recipient. Set the threshold to +++80+++ percent.
 8. [] Select **Customize setup** and review what the policy covers: **All users**, and all supported services. Don't change anything.
-9. [] Click the **Agents and services** section and verify that the top toggle **Allow new Agents and services as they become available** is enabled.
-10. [] Click **Save changes** and then Select **Activate**. Be patient - this step could take 60-90 seconds.
+9. [] Select the **Agents and services** section and verify that the top toggle **Allow new Agents and services as they become available** is enabled.
+10. [] Click **Save changes** and then Select **Activate**. Be patient - this step could take a couple of minutes.
 11. [] When setup is complete, select **Manage Configuration** and you'll be taken to the **Copilot > Cost Management** tab where we'll focus our attention.  
 12. [] On the **Configuration** sub-tab, check that the default **All Users Policy** is listed as **Enabled**.
 
 ===
 
-## Exercise 2: Setup a Cowork pilot for the Sales team, with model and spend guardrails
+## Exercise 2: Set up a Cowork pilot for the Sales team, with model and spend guardrails
 
 ⏱ About 9 minutes · 
 
 **Scenario:** The Sales team wants to pilot an increase in their team's Cowork credits to support sales proposals, account research and pipeline analysis. They anticipate needing more than the current default of $20 based on recent usage patterns.  a month won't last them. You all agree to a scaled up pilot with guardrails: Cowork only, $2,000 a person and $10,000 for the team, a warning before anyone is cut off, and a scoped list of approved models.
 
-**Goal:** Create the policy **Sales Cowork pilot** for Contoso Sales, with the model profile **Sales no frontier models**: 1,000,000 credits (or $10,000) for the team, 200,000 credits (or $2,000) a person, and alerts at 80%.
+**Goal:** Create the policy **Sales Cowork pilot** for Contoso Sales, with the model template **Sales no frontier models**: 1,000,000 credits (or $10,000) for the team, 200,000 credits (or $2,000) a person, and alerts at 80%.
 
 ### Choose who the policy covers
 
@@ -90,13 +90,13 @@ The lab includes two parts:
 ### Choose the service
 
 5. [] **Turn off** Allow new Agents and services as they become available.
-6. [] Under **Microsoft Copilot**, select **Cowork** only. Uncheck all other services then select **Next**.
+6. [] Every service starts selected by default. Expand Microsoft Copilot and clear every service except Cowork. Clear every service under Advanced AI in Microsoft 365 too, then select **Next**.
 
 Continue to the next page to complete Exercise 2.
 
 ===
 
-## Exercise 2 (continued): Setup a Cowork pilot for the Sales team, with model and spend guardrails
+## Exercise 2 (continued): Set up a Cowork pilot for the Sales team, with model and spend guardrails
 
 ### Set limits and alerts
 
@@ -109,13 +109,13 @@ Continue to the next page to complete Exercise 2.
 
 11. [] In **Model Template**, select **Customize model selection** > **Create new model profile**.
 12. [] Name the profile +++Sales no frontier models+++.
-13. [] Select **Anthropic > Opus** and **OpenAI > Sol**. The models **Anthropic > Sonnet** and **OpenAI > Terra** are required. Leave every other model unchecked, including the frontier models such as **Anthropic > Fable** and **OpenAI > Astra** as you do not need to give the most expensive models to the sales team yet and want to help them stretch their spend limits.
+13. [] Select **Anthropic > Opus** and **OpenAI > Sol**. The models **Anthropic > Sonnet** and **OpenAI > Terra** are required so they're already selected. Leave every other model unchecked, including the frontier models such as **Anthropic > Fable** and **OpenAI > Astra** since the Sales org will not need the most expensive, frontier models yet and you wish to help them stretch their spend limits.
 14. [] Select **Save**, then select **Next**.
 
 ### Choose billing and create the policy
 
 16. [] In **Billing method**, keep the default billing method and default subscription selected. Select **Next**.
-17. [] Review each section, select **Create spending policy**, then select **Done**. Congrats! You added a spend policy for the Cowork AI service scoped to a specific group and limited access to the most expensive frontier models!
+17. [] Review each section, select **Create spending policy**, then select **Done**. Creating a policy can take a minute. Congrats! You added a spend policy for the Cowork AI service scoped to a specific group and restricted access to the most expensive frontier models!
 18. [] Check that the **Configuration** tab lists two policies: the default **All Users Policy** (from Exercise 1) and newly created **Sales Cowork pilot**.
 
 ===
@@ -145,11 +145,11 @@ Continue to the next page to complete Exercise 2.
 
 ===
 
-Part 2 of the Lab starts here: It's now Monday, November 16 and two weeks have passed since Contoso has started consuming their new Cowork and Sales Agent AI services. The **Sales Cowork pilot** and **Sales environment agents** policies are live. IT also added a **Finance Cowork** policy on November 1, when Finance asked for additional AI spend to support the company's month-end close processes with Cowork.
+**Part 2 of the Lab starts here:** It's now Monday, November 16 and two weeks have passed since Contoso has started consuming their new Cowork and Sales Agent AI services. The **Sales Cowork pilot** and **Sales environment agents** policies are live. IT also added a **Finance Cowork** policy on November 1, when Finance asked for additional AI spend to support the company's month-end close processes with Cowork. **Note** Part 2 is a separate, prepared copy of Contoso with two weeks of sample data, so your Part 1 changes won't appear in it
 
-1. [] In Edge, open a new browser tab by clicking the "+" icon next to the open tab.
+1. [] In Edge, open a new browser tab by clicking the "+" icon next to the open tab. Don't press Ctrl+T or Ctrl+N: they open a tab on your own computer.
 2. [] Click in the address bar, select +++aka.ms/lab660+++, then press **Enter**.
-3. [] Select **Copilot** > **Cost Management**. You should see the **Overview** tab with two weeks of spend data.
+3. [] In the left navigation, select **Copilot** > **Cost Management**. You should see the **Overview** tab with two weeks of spend data.
 
 ===
 
@@ -192,13 +192,15 @@ Part 2 of the Lab starts here: It's now Monday, November 16 and two weeks have p
 
 **Goal:** Bill Budget, the Finance Director, asks you to help unblock her work without letting Finance's total budget run away.
 
-### Weigh the options
+### Weighing a few options
 
-| Option | The change | How to | What happens | Verdict |
-|---|---|---|---|---|
-| A: Raise the team limit | Raise Finance Cowork's 1,200,000 team limit | Select the **Configuration** tab, then select **Finance Cowork**. Increase the policy limit (1,200,000). For this exercise, close the panel without saving. | Fiona is still capped by her 500,000 personal limit, with only 50,000 credits left. | Doesn't help Fiona |
-| B: Raise everyone's personal limit | Per-user limit from 500,000 to 1,000,000 for all of Finance | Select the **Configuration** tab, then select **Finance Cowork**. Increase the per-user limit (500,000). For this exercise, close the panel without saving. | Polly and Bill, at 30% of their limits, get room they don't need. All three still share a team limit that's already at 62.5%. | Raises the ceiling for everyone to fix one person's problem. |
-| C: Define a Cowork power user group | A new group, Copilot Power Users, with its own policy at 1,000,000 a person. Fiona joins it. | Exercise 5 below |  Fiona's 450,000 credits carry forward: 45% of her new limit, with 550,000 left. Nobody else's limits change. | Unblocks Fiona (and lays groundwork to unblock power users from other functions) |
+| Option | The change | What happens | Verdict |
+|---|---|---|---|
+| A: Raise the team limit | Raise Finance Cowork's 1,200,000 team limit | Fiona is still capped by her 500,000 personal limit, with only 50,000 credits left. | Doesn't help Fiona |
+| B: Raise everyone's personal limit | Per-user limit from 500,000 to 1,000,000 for all of Finance | Polly and Bill, at 30% of their limits, get room they don't need. All three still share a team limit that's already at 62.5%. | Raises the ceiling for everyone to fix one person's problem. |
+| C: Define a Cowork power user group | A new group, Copilot Power Users, with its own policy at 1,000,000 a person. Fiona joins it. | Fiona's 450,000 credits carry forward: 45% of her new limit, with 550,000 left. Nobody else's limits change. | Unblocks Fiona (and lays groundwork to unblock power users from other functions) |
+
+**Optional step**: to see why options A and B fall short, select the **Configuration** tab, then select **Finance Cowork**. Note you could raise the policy limit (to 1,200,000 credits or $12k) and/or the per-user limit (to 500,000 credits or $5k). Close the panel without saving.
 
 **We will build option C.**
 ===
