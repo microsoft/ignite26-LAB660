@@ -16,7 +16,7 @@ The lab includes two parts:
 | 1 | 8 minutes | Turn on usage-based billing with a default spend policy for all users |
 | 2 | 9 minutes | Setup a Cowork pilot for the Sales team, with model and spend guardrails |
 | 3 | 8 minutes | Set a limit on the Sales team's agents (using a specific environment) |
-| 4 | 8 minutes | Understand the users and their spend policies that require action |
+| 4 | 8 minutes | Understand the AI spend and value as well as policies that require action |
 | 5 | 12 minutes | Unblock Finance's power user without raising everyone's limits |
 
 ### How this lab works
@@ -153,7 +153,7 @@ Part 2 of the Lab starts here: It's now Monday, November 16 and two weeks have p
 
 ===
 
-## Exercise 4: Find the policies and people that need action
+## Exercise 4: Understand the AI spend and value as well as policies that require action
 
 ⏱ About 8 minutes
 
@@ -184,7 +184,7 @@ Part 2 of the Lab starts here: It's now Monday, November 16 and two weeks have p
 7. 5. [] Switch to the **Use cases** view to drill down and explore the spend and value mapped to Domain > Category > Sub-Category to help you understand where the AI spend went and align with the CFO and other business leaders how best to manage the spend. Toggle between **Hierarchy** and **Table** views.
 ===
 
-## Exercise 5: Unblock Finance's power user
+## Exercise 5: Unblock Finance's power user without raising everyone's limits
 
 ⏱ About 12 minutes
 
@@ -216,7 +216,7 @@ Part 2 of the Lab starts here: It's now Monday, November 16 and two weeks have p
 
 ===
 
-## Exercise 5: Unblock Finance's power user (continued)
+## Exercise 5: Unblock Finance's power user without raising everyone's limits (continued)
 
 ### Give the group its own policy
 
