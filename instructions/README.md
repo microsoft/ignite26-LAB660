@@ -1,4 +1,4 @@
-# @lab.Title
+# LAB660: Configuring, monitoring, and managing AI spend with Agent 365
 
 ## Lab overview
 
