@@ -32,12 +32,12 @@ The lab includes two parts:
 ### Sign in to Tenant
 
 1. [] Click the Sign in button. You should be promted for a Microsoft email sign in which case skip to Step 2. If you are not prompted for a Microsoft account, try the steps below or call for a proctor. 
-    1b. [] If your virtual machine has not opened up and your Edge browser hasnt loaded then raise your hand or try to sign in to Windows. If you see the lock screen, select Sign in. Use the following credentials if asked for:
-    - Username: +++@lab.VirtualMachine(Ignite26LAB660).Username+++
-    - Password: +++@lab.VirtualMachine(Ignite26LAB660).Password+++
-    - If sign in doesnt work select @lab.CtrlAltDelete first
-    1c. [] **Microsoft Edge** session must be open. If not then on the desktop, double-click **Microsoft Edge**. If Edge shows a welcome or setup screen, close it.
-    1d. [] Click in the Edge address bar, select +++https://admin.cloud.microsoft+++, then press **Enter**.
+    - 1b. If your virtual machine has not opened up and your Edge browser hasnt loaded then raise your hand or try to sign in to Windows. If you see the lock screen, select Sign in. Use the following credentials if asked for:
+        - Username: +++@lab.VirtualMachine(Ignite26LAB660).Username+++
+        - Password: +++@lab.VirtualMachine(Ignite26LAB660).Password+++
+        - If sign in doesnt work select @lab.CtrlAltDelete first
+    - 1c. **Microsoft Edge** session must be open. If not then on the desktop, double-click **Microsoft Edge**. If Edge shows a welcome or setup screen, close it.
+    - 1d. Click in the Edge address bar, select +++https://admin.cloud.microsoft+++, then press **Enter**.
     
 2. [] Click the email entry field and select +++@lab.CloudCredential(PoolB).Sign-inName+++. The email address should start with 'ContosoAdmin@'. If you do not see this, try clicking the 'Resources' tab and find the 'Sign-in email'. Once the admin email address is entered then select **Next**.
 
