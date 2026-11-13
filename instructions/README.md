@@ -31,17 +31,19 @@ The lab includes two parts:
 
 ### Sign in to Tenant
 
-1. [] Click the Sign in button and you should be promted for a Microsoft email sign in (skip to Step 4) otherwise
-2. [] If your virtual machine has not opened up and your Edge browser hasnt loaded then raise your hand or try to sign in to Windows. If you see the lock screen, select Sign in. Use the following credentials if asked for:
+1. [] Click the Sign in button. You should be promted for a Microsoft email sign in which case skip to Step 2. If you are not prompted for a Microsoft account, try the steps below or call for a proctor. 
+    1b. [] If your virtual machine has not opened up and your Edge browser hasnt loaded then raise your hand or try to sign in to Windows. If you see the lock screen, select Sign in. Use the following credentials if asked for:
     - Username: +++@lab.VirtualMachine(Ignite26LAB660).Username+++
     - Password: +++@lab.VirtualMachine(Ignite26LAB660).Password+++
     - If sign in doesnt work select @lab.CtrlAltDelete first
-3. [] **Microsoft Edge** session must be open. If not then on the desktop, double-click **Microsoft Edge**. If Edge shows a welcome or setup screen, close it.
-4. [] Click in the Edge address bar, select +++https://admin.cloud.microsoft+++, then press **Enter**.
-5. [] Click in the email box, select +++@lab.CloudCredential(PoolB).Sign-inName+++, then select **Next**.  Check the Resources tab if the signin information is not available here.
-6. [] You should be asked to 'Enter Temporary Access Pass' - Click into the password box, select +++@lab.CloudCredential(PoolB).Sign-inCode+++, then select **Sign in**.
-7. [] If you're asked **Stay signed in?**, select **Yes**.
-8. [] Check that the **Microsoft 365 admin center** home page opens. Keep this Edge window open.
+    1c. [] **Microsoft Edge** session must be open. If not then on the desktop, double-click **Microsoft Edge**. If Edge shows a welcome or setup screen, close it.
+    1d. [] Click in the Edge address bar, select +++https://admin.cloud.microsoft+++, then press **Enter**.
+    
+2. [] Click the email entry field and select +++@lab.CloudCredential(PoolB).Sign-inName+++. The email address should start with 'ContosoAdmin@'. If you do not see this, try clicking the 'Resources' tab and find the 'Sign-in email'. Once the admin email address is entered then select **Next**.
+
+3. [] You should be asked to 'Enter Temporary Access Pass' - Click into the password box, select +++@lab.CloudCredential(PoolB).Sign-inCode+++. If you do not see a password, then you may find the 'Sign-in code' on the Resources tab. Enter the passcode then select **Sign in**.
+4. [] If you're asked **Stay signed in?**, select **Yes**.
+5. [] Check that the **Microsoft 365 admin center** home page opens. Keep this Edge window open and try not to refresh it through the exercise.
 
 > [!Help] Type text goes wherever your cursor is, so click in the right box before you select it. If sign-in still fails, check the resources tab for the email and password. If that still fails, raise your hand.
 
@@ -51,7 +53,7 @@ The lab includes two parts:
 
 ⏱ About 8 minutes ·
 
-**Scenario:** It's November 1. Contoso uses Microsoft 365 Copilot, but Cowork and other usage-based experiences stay off until you turn on usage-based billing. The CIO and CFO agree to let everyone try them under a safe ceiling: $20 a person a month, any model, paid from the Azure subscription, with a warning at 80%.
+**Scenario:** It's November 1. Contoso uses Microsoft 365 Copilot, but Cowork and other usage-based experiences have not yet been enabled until you turn on usage-based billing. The CIO and CFO agree to let everyone try them under a safe ceiling: $20 a person a month, any model, paid from the Azure subscription, with an alert set when users or total spend reach 80% of the limit you set.
 
 **Goal:** Turn on usage-based billing with a default spending policy for all users: 2,000 credits ($20) a person, 15,000 credits ($150) for the organization, and alerts at 80%.
 
@@ -63,11 +65,11 @@ The lab includes two parts:
 4. [] Select **Use pay-as-you-go subscription**. Select the available subscription.
 5. [] In **Set the monthly spending limit for this policy**, select **Limit monthly spending**, then enter either +++15000+++ credits or +++150+++ USD.
 6. [] In **Select monthly budget limits for users**, select **limit monthly spending per user**, then enter +++2000+++ credits or +++20+++ USD.
-7. [] Turn on **Define alerts**. Leave the email box empty: your admin account, **Contoso Admin** is already listed as a recipient. Set the threshold to +++80+++ percent.
-8. [] Select **Customize setup** and review what the policy covers: **All users**, and all supported services. Don't change anything.
-9. [] Select the **Agents and services** section and verify that the top toggle **Allow new Agents and services as they become available** is enabled.
+7. [] Turn on **Define alerts**. Leave the email box empty: your admin account, **Contoso Admin** is already listed as a recipient. Set the alert threshold to +++80+++ percent of limit.
+8. [] Select **Customize setup** and review what the policy covers: Scope is Identity > **All users**. Don't change anything.
+9. [] Select the **Agents and services** section and verify that the top toggle **Allow new Agents and services as they become available** is enabled. You'll see a number of services under **Microsoft Copilot** enabled including **Cowork** as well as other consumptive AI services such as WorkIQ API, Copilot Managed Runtime, Opal, Teams Phone Agent, and Teams Interpreter. All of these can remain checked.
 10. [] Click **Save changes** and then Select **Activate**. Be patient - this step could take a couple of minutes.
-11. [] When setup is complete, select **Manage Configuration** and you'll be taken to the **Copilot > Cost Management** tab where we'll focus our attention.  
+11. [] After a few minutes once setup is complete, select **Manage Configuration** and you'll be taken to the **Copilot > Cost Management** tab where we'll focus our attention.  
 12. [] On the **Configuration** sub-tab, check that the default **All Users Policy** is listed as **Enabled**.
 
 ===
@@ -89,8 +91,8 @@ The lab includes two parts:
 
 ### Choose the service
 
-5. [] **Turn off** Allow new Agents and services as they become available.
-6. [] Every service starts selected by default. Expand Microsoft Copilot and clear every service except Cowork. Clear every service under Advanced AI in Microsoft 365 too, then select **Next**.
+5. [] **Turn off** Allow new Agents and services as they become available so this policy is scoped only to Cowork service
+6. [] Every service starts selected by default. Expand Microsoft Copilot and clear every service except Cowork. Clear every service under Microsoft Copilot (e.g., WorkIQ API, Copilot Managed Runtime, Opal, etc) as well, then select **Next**.
 
 Continue to the next page to complete Exercise 2.
 
@@ -102,21 +104,21 @@ Continue to the next page to complete Exercise 2.
 
 7. [] In **Set the monthly spending limit for this policy**, select **Limit monthly spending**, then enter +++1000000+++ credits or +++10000+++ USD.
 8. [] In **Select monthly budget limits for users**, select **limit monthly spending per user**, then enter +++200000+++ credits or +++2000+++ USD.
-9. [] Toggle on **Define alerts**. Your admin address is already filled in as the recipient. Set the monthly spending alert threshold (the top one) to +++80+++ percent of limit.
-10. [] Set the user alert threshold to +++80+++ percent, then select **Next**.
+9. [] Toggle on **Define alerts**. Your admin address is already filled in as the recipient. Set the alert when monthly spend (the top one) to +++80+++ percent of limit.
+10. [] Set the alert when user's monthly spend (bottom one) reaches +++80+++ percent of limit, then select **Next**.
     
 ### Choose the models
 
 11. [] In **Model Template**, select **Customize model selection** > **Create new model profile**.
 12. [] Name the profile +++Sales no frontier models+++.
-13. [] Select **Anthropic > Opus** and **OpenAI > Sol**. The models **Anthropic > Sonnet** and **OpenAI > Terra** are required so they're already selected. Leave every other model unchecked, including the frontier models such as **Anthropic > Fable** and **OpenAI > Astra** since the Sales org will not need the most expensive, frontier models yet and you wish to help them stretch their spend limits.
-14. [] Select **Save**, then select **Next**.
+13. [] Select only **Anthropic > Opus** and **OpenAI > Sol**. The models **Anthropic > Sonnet** and **OpenAI > Terra** are required so they're already selected. You see other available models such as Opus Fast, Sol Fast, and Grok but we'll just add Opus and Sol. Leave every other model unchecked, especially the most expensive frontier models such as **Anthropic > Fable** and **OpenAI > Astra** since the Sales org will not need the most expensive, frontier models yet and you wish to help them stretch their spend limits.
+14. [] Select **Add** to set the Model template, then select **Next** to continue setting up the policy.
 
 ### Choose billing and create the policy
 
 16. [] In **Billing method**, keep the default billing method and default subscription selected. Select **Next**.
-17. [] Review each section, select **Create spending policy**, then select **Done**. Creating a policy can take a minute. Congrats! You added a spend policy for the Cowork AI service scoped to a specific group and restricted access to the most expensive frontier models!
-18. [] Check that the **Configuration** tab lists two policies: the default **All Users Policy** (from Exercise 1) and newly created **Sales Cowork pilot**.
+17. [] Review each section, select **Create spending policy**. Creating a policy can take a minute. Congrats! You added a spend policy for the Cowork AI service scoped to a specific group and restricted access to the most expensive frontier models!
+18. [] Check that the **Configuration** tab lists two policies: the default **All Users Policy** (from Exercise 1) and the newly created **Sales Cowork pilot** policy.
 
 ===
 
@@ -131,13 +133,14 @@ Continue to the next page to complete Exercise 2.
 1. [] On the **Configuration** tab, select **+ Add spending policy**, then select **Next**.
 2. [] Name the policy +++Sales Agent+++,
 3. [] Select **Resources** as the scope and then Select **Resource collection** (be sure you did not select **Specific resource**)
-5. [] Under **Resource collection** select **Specific environments**. Search for +++Sales Agent Test Environment+++, then select **Sales Agent Test Environment**, then select **Next**.
+5. [] Under **Resource collection** select **Specific environments**. Search for +++Sales Agent Test Environment+++, then select **Sales Agent Test Environment**. If you don't see Sales Agent Test Environment, just select the Default environment and continue. Then select **Next**. Be patient as loading the enviroment could take a minute.
 6. [] No action needed on the **Review agents and services** pane (however, if you have Copilot Studio environments that contain agents, workflows, and apps you'd be able to set policies for those specific resources as well). You can proceed by clicking **Next**
 7. [] In **Set the monthly spending limit for this policy**, select **Limit monthly spending**, then enter +++500000+++ credits or +++5000+++ USD.
 8. [] In **Select monthly budget limit for agents**, select **Limit monthly spending per agent**, then enter +++250000+++ credits or +++2500+++ USD.
-9. [] Toggle on **Define alerts**. Your admin address is already filled in as the recipient. Search for +++Pete Pipeline+++ and add him. You can also toggle on 'Notify agent maker' if you wish. Set the alert thresholds to +++80+++ percent, then select **Next**.
-10. [] In **Billing method**, keep the default billing method and default subscription selected, then select **Next**.
-11. [] Review the settings, then select **Create spending policy**.
+9. [] Toggle on **Define alerts**. Your admin address is already filled in as the recipient. Search for +++Pete Pipeline+++ and add him. You can also toggle on **Notify agent maker** if you wish so whoever made the agent can help see the costs.
+10. Set the alert when monthly spend threshold (the first alert) to +++80+++ percent of limit. You can optionally add an alert when an agent's spend (the second alert) reached 80 percent of limit if you wish. Then select **Next**.
+11. [] In **Billing method**, keep the default billing method and default subscription selected, then select **Next**.
+12. [] Review the settings, then select **Create spending policy** and allow a minute for the new policy to be added.
 
 ### Check your work
 
@@ -145,10 +148,10 @@ Continue to the next page to complete Exercise 2.
 
 ===
 
-**Part 2 of the Lab starts here:** It's now Monday, November 16 and two weeks have passed since Contoso has started consuming their new Cowork and Sales Agent AI services. The **Sales Cowork pilot** and **Sales environment agents** policies are live. IT also added a **Finance Cowork** policy on November 1, when Finance asked for additional AI spend to support the company's month-end close processes with Cowork. **Note** Part 2 is a separate, prepared copy of Contoso with two weeks of sample data, so your Part 1 changes won't appear in it
+**Part 2 of the Lab starts here:** It's now Monday, November 16 and two weeks have passed since Contoso has started consuming their new Cowork and Sales Agent AI services. The **Sales Cowork pilot** and **Sales environment agents** policies are live. IT also added a **Finance Cowork** policy (with a 60% alert threshold) on November 1, when Finance asked for additional AI spend to support the company's month-end close processes with Cowork. **Note** Part 2 is a separate, prepared copy of Contoso with two weeks of sample data, so your Part 1 changes may not appear in it.
 
 1. [] In Edge, open a new browser tab by clicking the "+" icon next to the open tab. Don't press Ctrl+T or Ctrl+N: they open a tab on your own computer.
-2. [] Click in the address bar, select +++aka.ms/lab660+++, then press **Enter**.
+2. [] Click in the address bar, select +++aka.ms/lab660+++, then press **Enter**. Please be patient if the page takes some time to load and populate the simulated data.
 3. [] In the left navigation, select **Copilot** > **Cost Management**. You should see the **Overview** tab with two weeks of spend data.
 
 ===
@@ -162,26 +165,28 @@ Continue to the next page to complete Exercise 2.
 **Scenario:** There are 15 days left in the month. The CFO wants a two-line update: how much has Contoso spent so far, and what needs action?
 
 1. [] On the **Overview** tab, review the tiles at the top. You should see:
-    - **Total Copilot Credits used**: 1.3 Million
-    - **Active users of Copilot Credits**: 8
+    - **Credits used this month**: 1.3 Million
+    - **Active users this month**: 8
     - **Cost this month**: $13K
     - **Value**: $51K
 2. [] Review the cards that flag what needs action. You should see:
-    - **Policies approaching or at limit**: **Finance Cowork**, at $7,500 of $12,000 (63%). It's marked **Needs action** because it's past its 60% alert threshold.
+    - **Policies approaching or at limit**: **Finance Cowork**, at $7,500 of $12,000 (63%). appears in the overview because it's past the 60% of limit alert threshold set for this policy.
     - **Users at ≥90% of spending limit**: **Sally Sales**, at $1,900 of $2,000 (95%), and **Fiona Forecast**, at $4,500 of $5,000 (90%)
 3. [] Scroll down to review the **Agent cost & value** insights on each card. You'll see:
-    - **Cost**: $13,300.00 estimated spend month to date and a forecasted spend of $26,600 by month-end.
+    - **Cost**: $13,300.00 estimated spend month to date and a forecasted spend of $26,600 by month-end at the current rate.
+    - **Value vs. cost** shows a large bubble representing **Cowork** and a smaller bubble representing **Sales agent**. The services are plotted based on the average economic value generated per session vs. average AI cost per session. **Cowork** has many more sessions (across many use cases) but in aggregate seems to be generating good value relative to cost. **Sales agent** may have room for improvement as the session costs seem high relative to the value (potential room to optimize).
+    - **Top use cases by cost** shows at a glance the business activities (e.g., Budget and forecast preparation) connected to the AI spend - we will take a closer look at this later.
     - **Top agents and services by cost**: **Cowork**, $11,500, and **Sales Agent**, $1,800 spent.
     - **Top users by cost**: Fiona Forecast $4,500.00, Sally Sales $1,900.00, Polly Procurement $1,500.00, Bill Budget $1,500.00 and Pete Pipeline $800.00.
-    - **Value vs. cost** shows a large bubble representing **Cowork** and a smaller bubble representing **Sales agent**. The services are plotted based on the average economic value generated per session vs. average AI cost per session. **Cowork** has many more sessions (across many use cases) but in aggregate seems to be generating good value relative to cost. **Sales agent** may have room for improvement as the session costs seem high relative to the value (potential room to optimize).
-    - **Top use cases by cost** shows at a glance the business activities connected to the AI spend - we will take a closer look at this later.
-4. [] Select the **Consumption** sub-tab to see the active **Policies** sorted by **Cost**.
+    
 
-5. [] Switch to the **Users & groups** view. The list is set to **Group by** **All users**. The list is sorted by **Total credits used**. 
+4. [] Near the top of the Cost Management page, select the **Consumption** sub-tab to see the active **Policies** sorted by **Cost** (or spend to date).
 
-6. [] Select **Fiona Forecast** to open her details. You should see her daily usage under **Finance Cowork**. Additionally, her cost should be $4,500 for the first two weeks of November. The **Value** module shows her AI spend generated an estimated $21.6k of value across use cases such as Budget and forecast as well as financial statement preparations which the CFO agrees is AI usage worth scaling. **Note** user-specific visibility into spend, use cases must be enabled by the organization.
+5. [] Switch to the **Users & groups** view with Key Insights drawing attention to users above the alert threshold. As you scroll down you'll see a list of users sorted by **Cost**. The list set to **Group by** **All users** but can also be viewed by **Group** which organizes by job function. Additional ways to examine users/groups are coming soon. 
 
-7. 5. [] Switch to the **Use cases** view to drill down and explore the spend and value mapped to Domain > Category > Sub-Category to help you understand where the AI spend went and align with the CFO and other business leaders how best to manage the spend. Toggle between **Hierarchy** and **Table** views.
+6. [] Select **Fiona Forecast** name to open her usage details. You should see her cumulative usage in blue relative to her limit in red. Additionally, her cost should be $4,500 for the first two weeks of November. As you scroll down you'll see **Spending policies** which show which policies and limits govern Fiona's spend. Below that the **Value** module shows her AI spend generated value estimated to be $21.6k (relative to her cost of $4.5k) across use cases such as Budget and forecast as well as Financial statement preparations. The CFO understands the value and ROI and agrees to continue scaling Fiona's AI usage. **Note** user-specific visibility into spend and use cases must be enabled by the organization and are not available by default.
+
+7. [] Close Fiona's detailed usage view and switch from **Users & groups** to the **Use cases** sub-tab. Here you can drill down and explore the spend and value mapped to Domain > Category > Sub-Category to help you understand where the AI spend went and align with the CFO and other business leaders how best to manage the spend relative to value. Toggle between **Hierarchy** and **Table** views to explore the data.
 ===
 
 ## Exercise 5: Unblock Finance's power user without raising everyone's limits
@@ -197,12 +202,12 @@ Continue to the next page to complete Exercise 2.
 | Option | The change | What happens | Verdict |
 |---|---|---|---|
 | A: Raise the team limit | Raise Finance Cowork's 1,200,000 team limit | Fiona is still capped by her 500,000 personal limit, with only 50,000 credits left. | Doesn't help Fiona |
-| B: Raise everyone's personal limit | Per-user limit from 500,000 to 1,000,000 for all of Finance | Polly and Bill, at 30% of their limits, get room they don't need. All three still share a team limit that's already at 62.5%. | Raises the ceiling for everyone to fix one person's problem. |
+| B: Raise everyone's personal limit | Per-user limit from 500,000 to 1,000,000 for all of Finance | Polly and Bill, at 30% of their limits, get additional headroom they don't need. All three still share a team limit that's already at 62.5%. | Raises the ceiling for everyone to fix one person's problem. |
 | C: Define a Cowork power user group | A new group, Cowork Power Users, with its own policy at 1,000,000 a person. Fiona joins it. | Fiona's 450,000 credits carry forward: 45% of her new limit, with 550,000 left. Nobody else's limits change. | Unblocks Fiona (and lays groundwork to unblock power users from other functions) |
 
 **Optional step**: to see why options A and B fall short, select the **Configuration** tab, then select **Finance Cowork**. Note you could raise the policy limit (to 1,200,000 credits or $12k) and/or the per-user limit (to 500,000 credits or $5k). Close the panel without saving.
 
-**We will build option C.**
+**We decide to build option C.**
 ===
 
 ### Option C: Create the Cowork power user group
@@ -211,10 +216,9 @@ Continue to the next page to complete Exercise 2.
 3. [] Be sure to select the **Security groups** sub-tab. 
 4. [] Select **Add a security group**.
 5. [] On **Set up the basics**, enter the name +++Cowork Power Users+++ and the description +++Approved Cowork power users with higher user limits+++, then select **Next**.
-6. [] On **Edit settings**, don't change anything, then select **Next**.
-7. [] Review your selections, select **Create group**, then select **Close**.
-8. [] In the **Security groups** list, select **Cowork Power Users**. If it isn't listed yet, refresh the page.
-9. [] Select the **Members** tab, then select **View all and manage members**. Select **Add members** and search for +++Fiona+++, select **Fiona Forecast**, then select **Add**. Close the panel. Fiona is now part of the Cowork Power Users group as well as her original group Contoso Finance.
+6. [] Review your selections, select **Create group**, then select **Close**.
+7. [] In the **Security groups** list, select **Cowork Power Users**. If it isn't listed yet, click the refresh icon next to 'Export' - do not refresh the webpage.
+8. [] Select the **Members** sub-tab, then select **View all and manage members**. Select **Add members** and search for +++Fiona+++, select **Fiona Forecast**, then select **Add**. Close the panel. Fiona is now part of the Cowork Power Users group as well as her original group Contoso Finance.
 
 ===
 
@@ -225,20 +229,22 @@ Continue to the next page to complete Exercise 2.
 10. [] Select **Copilot** > **Cost Management** > **Configuration**, then select **+ Add spending policy**.
 11. [] Name the policy +++Cowork Power Users+++, then select **Identity** as the scope.
 12. [] Switch from **All users** to **Specific groups**. Search for +++Cowork Power Users+++, select it, then select **Next**. If the group isn't listed yet, wait a minute and search again.
-13. [] In **Review agents and services**, **turn off** the toggle next to 'Include all agents and services the users have access to'. Next, under **Microsoft Copilot**, select **Cowork** only. Uncheck all other services then select **Next**.
+13. [] In **Review agents and services**, **turn off** the toggle next to 'Include all agents and services the users have access to'. Next, under **Microsoft Copilot**, select **Cowork** only. Uncheck all other services. Also uncheck all 'Advanced AI in Microsoft 365' services. You can leave 'App and agent building' services as well as 'WorkIQ' and 'Business Apps' services enabled given your power users are increasingly finding value in building AI solutions using these services. Finally select **Next**.
 14. [] In **Set the monthly spending limit for this policy**, select **Limit monthly spending**, then enter $ +++20000+++ USD. **Note** we are inputting $ now instead of credits.
 15. [] In **Select monthly budget limits for users**, select **limit monthly spending per user**, then enter $ +++10000+++ USD.**Note** we are inputting $ now instead of credits.
-16. [] Toggle on **Define alerts**. Set the policy alert threshold to +++80+++ percent. Turn on user notifications at +++80+++ percent, then select **Next**.
-17. [] In **Model template**, keep the default selection 'Apply model selection automatically' (don't customize the model selection), then select **Next**. These are the same models Fiona had in Finance.
+16. [] Toggle on **Define alerts**. Find 'Constoso Admin' as the user and email to be alerted. Set the monthly and user spend alerts to +++80+++ percent of limit then select **Next**.
+17. [] In **Model template**, keep the default selection 'Apply model selection automatically' (this allows dynamic model selection and routing). Don't customize the model selection. Then select **Next**. These are the same settings Fiona had in her original Finance policy.
 18. [] In **Billing method**, keep the default billing method and default subscription selected then select **Next**.
 19. [] Review the settings, select **Create spending policy**, then select **Done**. Check that the **Configuration** tab now lists four policies, including **Cowork Power Users**.
 
 ### Check the result
 
-20. [] Select the **Consumption** tab, then the **Users & groups** view. Fiona's $4,500 spend will continue to carry forward against her new $10,0000 limit: 45% used, with $5,500 left as her new power user policy is more permissive. Other users still governed by the **Finance Cowork** policy, such as Polly Procurement and Bill Budget still have a $5,000 limit. On the **Policies** tab you can see **Cowork Power Users** policy with its $20,000 limit.
+20. [] Select the **Consumption** sub-tab, then the **Users & groups** view. Fiona's $4,500 spend will continue to carry forward against her new $10,0000 limit: 45% used, with $5,500 left as her new power user policy is more permissive. Other users still governed by the **Finance Cowork** policy, such as Polly Procurement and Bill Budget still have a $5,000 limit. On the **Policies** tab you can see **Cowork Power Users** policy with its $20,000 limit.
 
-> [!Note] Group membership and dashboard updates can take a few minutes. If you don't see the change yet, check again later.
+> [!Note] Group membership and dashboard updates can take a few minutes. If you don't see the change yet, check again later or try refreshing.
 
-**If you have time:** so Finance's owners don't get a daily alert for the rest of the month, select **Finance Cowork**, change its policy alert threshold from 60 to +++95+++ percent, then select **Save changes**.
+**If you have time:** to help limit the daily alerts being sent to the Finance spend policy owners select **Finance Cowork** policy under the **Configuration** sub-tab, change its policy alert threshold from 60 to +++95+++ percent, then select **Save changes**.
 
-You've finished the hands-on part of the lab. Look up at the room screen for the closing.
+If you return to the **Overview** sub-tab you may see the **Finance Cowork** policy is no longer under 'Top actions' now that the alert threshold has been raised. We also no longer see Fiona under **Users at >90% of their limit** because her limit was raised when she was added to the Cowork Power User group.
+
+You've finished the hands-on part of the lab. Feel free to help a neighbor who might be stuck or take a short break. Your lab presenter will share a preview of exciting upcoming FinOps features and answer questions before we conclude. 
