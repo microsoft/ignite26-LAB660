@@ -203,22 +203,22 @@ Continue to the next page to complete Exercise 2.
 |---|---|---|---|
 | A: Raise the team limit | Raise Finance Cowork's 1,200,000 team limit | Fiona is still capped by her 500,000 personal limit, with only 50,000 credits left. | Doesn't help Fiona |
 | B: Raise everyone's personal limit | Per-user limit from 500,000 to 1,000,000 for all of Finance | Polly and Bill, at 30% of their limits, get additional headroom they don't need. All three still share a team limit that's already at 62.5%. | Raises the ceiling for everyone to fix one person's problem. |
-| C: Define a Cowork power user group | A new group, Cowork Power Users, with its own policy at 1,000,000 a person. Fiona joins it. | Fiona's 450,000 credits carry forward: 45% of her new limit, with 550,000 left. Nobody else's limits change. | Unblocks Fiona (and lays groundwork to unblock power users from other functions) |
+| C: Define a Copilot Power User group | A new group, Copilot Power Users, with its own policy at 1,000,000 a person. Fiona joins it. | Fiona's 450,000 credits carry forward: 45% of her new limit, with 550,000 left. Nobody else's limits change. | Unblocks Fiona (and lays groundwork to unblock power users from other functions) |
 
 **Optional step**: to see why options A and B fall short, select the **Configuration** tab, then select **Finance Cowork**. Note you could raise the policy limit (to 1,200,000 credits or $12k) and/or the per-user limit (to 500,000 credits or $5k). Close the panel without saving.
 
 **We decide to build option C.**
 ===
 
-### Option C: Create the Cowork power user group
+### Option C: Create the Copilot Power User group
 
 2. [] In the left navigation, select **Teams & groups** > **Active teams & groups**
 3. [] Be sure to select the **Security groups** sub-tab. 
 4. [] Select **Add a security group**.
-5. [] On **Set up the basics**, enter the name +++Cowork Power Users+++ and the description +++Approved Cowork power users with higher user limits+++, then select **Next**.
+5. [] On **Set up the basics**, enter the name +++Copilot Power Users+++ and the description +++Approved Copilot Power Users with higher user limits+++, then select **Next**.
 6. [] Review your selections, select **Create group**, then select **Close**.
-7. [] In the **Security groups** list, select **Cowork Power Users**. If it isn't listed yet, click the refresh icon next to 'Export' - do not refresh the webpage.
-8. [] Select the **Members** sub-tab, then select **View all and manage members**. Select **Add members** and search for +++Fiona+++, select **Fiona Forecast**, then select **Add**. Close the panel. Fiona is now part of the Cowork Power Users group as well as her original group Contoso Finance.
+7. [] In the **Security groups** list, select **Copilot Power Users**. If it isn't listed yet, click the refresh icon next to 'Export' - do not refresh the webpage.
+8. [] Select the **Members** sub-tab, then select **View all and manage members**. Select **Add members** and search for +++Fiona+++, select **Fiona Forecast**, then select **Add**. Close the panel. Fiona is now part of the Copilot Power Users group as well as her original group Contoso Finance.
 
 ===
 
@@ -227,24 +227,24 @@ Continue to the next page to complete Exercise 2.
 ### Give the group its own policy
 
 10. [] Select **Copilot** > **Cost Management** > **Configuration**, then select **+ Add spending policy**.
-11. [] Name the policy +++Cowork Power Users+++, then select **Identity** as the scope.
-12. [] Switch from **All users** to **Specific groups**. Search for +++Cowork Power Users+++, select it, then select **Next**. If the group isn't listed yet, wait a minute and search again.
+11. [] Name the policy +++Copilot Power Users+++, then select **Identity** as the scope.
+12. [] Switch from **All users** to **Specific groups**. Search for +++Copilot Power Users+++, select it, then select **Next**. If the group isn't listed yet, wait a minute and search again.
 13. [] In **Review agents and services**, **turn off** the toggle next to 'Include all agents and services the users have access to'. Next, under **Microsoft Copilot**, select **Cowork** only. Uncheck all other services. Also uncheck all 'Advanced AI in Microsoft 365' services. You can leave 'App and agent building' services as well as 'WorkIQ' and 'Business Apps' services enabled given your power users are increasingly finding value in building AI solutions using these services. Finally select **Next**.
 14. [] In **Set the monthly spending limit for this policy**, select **Limit monthly spending**, then enter $ +++20000+++ USD. **Note** we are inputting $ now instead of credits.
 15. [] In **Select monthly budget limits for users**, select **limit monthly spending per user**, then enter $ +++10000+++ USD.**Note** we are inputting $ now instead of credits.
 16. [] Toggle on **Define alerts**. Find 'Constoso Admin' as the user and email to be alerted. Set the monthly and user spend alerts to +++80+++ percent of limit then select **Next**.
 17. [] In **Model template**, keep the default selection 'Apply model selection automatically' (this allows dynamic model selection and routing). Don't customize the model selection. Then select **Next**. These are the same settings Fiona had in her original Finance policy.
 18. [] In **Billing method**, keep the default billing method and default subscription selected then select **Next**.
-19. [] Review the settings, select **Create spending policy**, then select **Done**. Check that the **Configuration** tab now lists four policies, including **Cowork Power Users**.
+19. [] Review the settings, select **Create spending policy**, then select **Done**. Check that the **Configuration** tab now lists four policies, including **Copilot Power Users**.
 
 ### Check the result
 
-20. [] Select the **Consumption** sub-tab, then the **Users & groups** view. Fiona's $4,500 spend will continue to carry forward against her new $10,000.00 limit: 45% used, with $5,500 left as her new power user policy is more permissive. Other users still governed by the **Finance Cowork** policy, such as Polly Procurement and Bill Budget still have a $5,000 limit. On the **Policies** tab you can see **Cowork Power Users** policy with its $20,000 limit.
+20. [] Select the **Consumption** sub-tab, then the **Users & groups** view. Fiona's $4,500 spend will continue to carry forward against her new $10,000.00 limit: 45% used, with $5,500 left as her new power user policy is more permissive. Other users still governed by the **Finance Cowork** policy, such as Polly Procurement and Bill Budget still have a $5,000 limit. On the **Policies** tab you can see **Copilot Power Users** policy with its $20,000 limit.
 
 > [!Note] Group membership and dashboard updates can take a few minutes. If you don't see the change yet, check again later or try refreshing.
 
 **If you have time:** to help limit the daily alerts being sent to the Finance spend policy owners select **Finance Cowork** policy under the **Configuration** sub-tab, change its policy alert threshold from 60 to +++95+++ percent, then select **Save changes**.
 
-If you return to the **Overview** sub-tab you may see the **Finance Cowork** policy is no longer under 'Top actions' now that the alert threshold has been raised. We also no longer see Fiona under **Users at >90% of their limit** because her limit was raised when she was added to the Cowork Power User group.
+If you return to the **Overview** sub-tab you may see the **Finance Cowork** policy is no longer under 'Top actions' now that the alert threshold has been raised. We also no longer see Fiona under **Users at >90% of their limit** because her limit was raised when she was added to the Copilot Power User group.
 
 You've finished the hands-on part of the lab. Feel free to help a neighbor who might be stuck or take a short break. Your lab presenter will share a preview of exciting upcoming FinOps features and answer questions before we conclude. 
