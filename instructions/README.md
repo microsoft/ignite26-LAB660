@@ -239,7 +239,7 @@ Continue to the next page to complete Exercise 2.
 
 ### Check the result
 
-20. [] Select the **Consumption** sub-tab, then the **Users & groups** view. Fiona's $4,500 spend will continue to carry forward against her new $10,0000 limit: 45% used, with $5,500 left as her new power user policy is more permissive. Other users still governed by the **Finance Cowork** policy, such as Polly Procurement and Bill Budget still have a $5,000 limit. On the **Policies** tab you can see **Cowork Power Users** policy with its $20,000 limit.
+20. [] Select the **Consumption** sub-tab, then the **Users & groups** view. Fiona's $4,500 spend will continue to carry forward against her new $10,000.00 limit: 45% used, with $5,500 left as her new power user policy is more permissive. Other users still governed by the **Finance Cowork** policy, such as Polly Procurement and Bill Budget still have a $5,000 limit. On the **Policies** tab you can see **Cowork Power Users** policy with its $20,000 limit.
 
 > [!Note] Group membership and dashboard updates can take a few minutes. If you don't see the change yet, check again later or try refreshing.
 
