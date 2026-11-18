@@ -137,7 +137,7 @@ Continue to the next page to complete Exercise 2.
 6. [] No action needed on the **Review agents and services** pane (however, if you have Copilot Studio environments that contain agents, workflows, and apps you'd be able to set policies for those specific resources as well). You can proceed by clicking **Next**
 7. [] In **Set the monthly spending limit for this policy**, select **Limit monthly spending**, then enter +++500000+++ credits or +++5000+++ USD.
 8. [] In **Select monthly budget limit for agents**, select **Limit monthly spending per agent**, then enter +++250000+++ credits or +++2500+++ USD.
-9. [] Toggle on **Define alerts**. Your admin address is already filled in as the recipient. Search for +++Pete Pipeline+++ and add him. You can also toggle on **Notify agent maker** if you wish so whoever made the agent can help see the costs.
+9. [] Toggle on **Define alerts**. Your admin address is already filled in as the recipient. Search for +++Pete Pipeline+++ and add him.
 10. Set the alert when monthly spend threshold (the first alert) to +++80+++ percent of limit. You can optionally add an alert when an agent's spend (the second alert) reached 80 percent of limit if you wish. Then select **Next**.
 11. [] In **Billing method**, keep the default billing method and default subscription selected, then select **Next**.
 12. [] Review the settings, then select **Create spending policy** and allow a minute for the new policy to be added.
@@ -232,7 +232,7 @@ Continue to the next page to complete Exercise 2.
 13. [] In **Review agents and services**, **turn off** the toggle next to 'Include all agents and services the users have access to'. Next, under **Microsoft Copilot**, select **Cowork** only. Uncheck all other services. Also uncheck all 'Advanced AI in Microsoft 365' services. You can leave 'App and agent building' services as well as 'WorkIQ' and 'Business Apps' services enabled given your power users are increasingly finding value in building AI solutions using these services. Finally select **Next**.
 14. [] In **Set the monthly spending limit for this policy**, select **Limit monthly spending**, then enter $ +++20000+++ USD. **Note** we are inputting $ now instead of credits.
 15. [] In **Select monthly budget limits for users**, select **limit monthly spending per user**, then enter $ +++10000+++ USD.**Note** we are inputting $ now instead of credits.
-16. [] Toggle on **Define alerts**. Find 'Constoso Admin' as the user and email to be alerted. Set the monthly and user spend alerts to +++80+++ percent of limit then select **Next**.
+16. [] Toggle on **Define alerts**. Find +++Constoso Admin+++ as the user and email to be alerted. Set the monthly and user spend alerts to +++80+++ percent of limit then select **Next**.
 17. [] In **Model template**, keep the default selection 'Apply model selection automatically' (this allows dynamic model selection and routing). Don't customize the model selection. Then select **Next**. These are the same settings Fiona had in her original Finance policy.
 18. [] In **Billing method**, keep the default billing method and default subscription selected then select **Next**.
 19. [] Review the settings, select **Create spending policy**, then select **Done**. Check that the **Configuration** tab now lists four policies, including **Cowork Power Users**.
